@@ -14,7 +14,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/Homework%20Week%209/data/Environment_Temperature_change_E_All_Data_NOFLAG_edited_2.csv"
+          "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/HW_W9/data/Environment_Temperature_change_E_All_Data_NOFLAG_edited_2.csv"
         },
         "key": "Area",
         "fields": ["Y2019"]
