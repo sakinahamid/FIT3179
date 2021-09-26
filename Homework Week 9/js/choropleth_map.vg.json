@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "COVID-19 Active Cases (10 Oct 2020)",
+  "title": "Global Temperature Change (2019)",
   "width": 800,
   "height": 600,
   "data": {
@@ -14,7 +14,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "G:/My Drive/Monash University Malaysia/Year 3 Sem 1 (July 2021)/FIT3179 Data Visualisation/Homework/Week 9/choropleth_map_w8/data/FAOSTAT_data_11-24-2020.csv"
+          "url": "Homework Week 9/data/Environment_Temperature_change_E_All_Data_NOFLAG.csv"
         },
         "key": "Country",
         "fields": ["Active"]
