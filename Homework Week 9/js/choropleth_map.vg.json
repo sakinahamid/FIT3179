@@ -20,7 +20,7 @@
         "fields": ["Y2019"]
       }
     },
-    {"calculate": "datum.Y2019 + 0.0000001", "as": "Year (2019)"}
+    {"calculate": "datum.Y2019", "as": "Temp Change (Base: 1951 - 1980)"}
   ],
   "projection": {
     "type": "equirectangular"
@@ -30,9 +30,9 @@
     },
   "encoding": {
     "color": {
-      "field": "Year (2019)",
+      "field": "Temp Change (Base: 1951 - 1980)",
       "type": "quantitative",
-      "scale": { "type": "log"}
+      "scale": { "type": "threshold", "domain": [0.082, 1.022, 1.962, 2.902], "range": ["#f0f9e8", "#bae4bc", "#7bccc4", "#43a2ca", "#0868ac"] }
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Area"},
