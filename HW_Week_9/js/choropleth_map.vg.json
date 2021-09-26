@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Global Temperature Change (2019)",
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/HW_W9/js/ne_110m_admin_0_countries.topojson",
+    "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_0_countries"
+        }
+  },
+  "transform": [{
+      "lookup": "properties.NAME",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/HW_W9/data/Environment_Temperature_change_E_All_Data_NOFLAG_edited_2.csv"
+        },
+        "key": "Area",
+        "fields": ["Y2019"]
+      }
+    },
+    {"calculate": "datum.Y2019", "as": "Temp Change (Base: 1951 - 1980)"}
+  ],
+  "projection": {
+    "type": "equirectangular"
+  },
+  "mark": {
+    "type": "geoshape"
+    },
+  "encoding": {
+    "color": {
+      "field": "Temp Change (Base: 1951 - 1980)",
+      "type": "quantitative",
+      "scale": { "type": "threshold", "domain": [0.082, 1.022, 1.962, 2.902], "range": ["#f0f9e8", "#bae4bc", "#7bccc4", "#43a2ca", "#0868ac"] }
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "Area"},
+      {"field": "Y2019", "type": "quantitative"}
+    ]
+  }
+
+}
