@@ -1,11 +1,92 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Temperature Change by Region Over Time.",
+  "title": "Temperature Change by Region Over Time",
   "data": {"url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/HW_W10/data/temp_change/Temp_Change_Regions.csv"},
+  "params": [
+    {
+      "name" : "regionSelection",
+      "bind" : {
+        "input" : "select",
+        "options" : [
+          null,
+          "Africa",
+          "Eastern Africa",
+          "Middle Africa",
+          "Northern Africa",
+          "Southern Africa",
+          "Western Africa",
+          "Americas",
+          "Northen America",
+          "Central America",
+          "Caribbean",
+          "South America",
+          "Asia",
+          "Central Asia",
+          "Eastern Asia",
+          "Southern Asia",
+          "South-Eastern Asia",
+          "Western Asia",
+          "Europe",
+          "Eastern Europe",
+          "Northern Europe",
+          "Southern Europe",
+          "Western Europe",
+          "Oceania",
+          "Australia and New Zealand",
+          "Melanesia",
+          "Micronesia",
+          "Polynesia",
+          "European Union"
+
+        ],
+        "labels":[
+          "Show All",
+          "Africa",
+          "Eastern Africa",
+          "Middle Africa",
+          "Northern Africa",
+          "Southern Africa",
+          "Western Africa",
+          "Americas",
+          "Northen America",
+          "Central America",
+          "Caribbean",
+          "South America",
+          "Asia",
+          "Central Asia",
+          "Eastern Asia",
+          "Southern Asia",
+          "South-Eastern Asia",
+          "Western Asia",
+          "Europe",
+          "Eastern Europe",
+          "Northern Europe",
+          "Southern Europe",
+          "Western Europe",
+          "Oceania",
+          "Australia and New Zealand",
+          "Melanesia",
+          "Micronesia",
+          "Polynesia",
+          "European Union"
+        ],
+        "name" : "Region Selection"
+      }
+    }
+  ],
+  "transform": [
+    {"filter" : "regionSelection == null || datum.Region == regionSelection"}
+  ],
   "mark": "line",
   "encoding": {
     "x": {"field": "Year", "type": "temporal"},
     "y": {"field": "Temperature Change", "type": "quantitative"},
-    "color": {"field": "Region", "type": "nominal"}
+    "color": {"field": "Region", "type": "nominal"},
+    "tooltip": [
+      {"field": "Region", "type": "nominal", "title": "Region"},
+      {"field": "Year", "type": "temporal", "title": "Year"},
+      {"field": "Temperature Change", "type": "quantitative", "format": ".2f"}
+    ]
+    
   }
 }
