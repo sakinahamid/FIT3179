@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Global Temperature Change (2019)",
+    "title": "Global Temperature Change",
     "width": 800,
     "height": 600,
     "data": {
@@ -20,7 +20,7 @@
           "fields": ["Temperature"]
         }
       },
-      {"calculate": "datum.Temperature + 0.1", "as": "Temp Change (Base: 1951 - 1980)"}
+      {"calculate": "datum.Temperature + 0.00000000001", "as": "Temp Change (Base: 1951 - 1980)"}
     ],
     "projection": {
       "type": "equirectangular"
@@ -33,7 +33,7 @@
         "aggregate" : "average",
         "field": "Temp Change (Base: 1951 - 1980)",
         "type": "quantitative",
-        "scale": { "type": "log"}
+        "scale": { "type": "linear"}
       },
       "tooltip": [
         {"field": "properties.NAME", "type": "nominal", "title": "Country"},
