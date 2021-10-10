@@ -1,0 +1,44 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Global Temperature Change (2019)",
+    "width": 800,
+    "height": 600,
+    "data": {
+      "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/HW_W10/js/ne_110m_admin_0_countries.topojson",
+      "format": {
+            "type": "topojson",
+            "feature": "ne_110m_admin_0_countries"
+          }
+    },
+    "transform": [{
+        "lookup": "properties.NAME",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/HW_W10/data/temp_change/Temp_Change_Countries.csv"
+          },
+          "key": "Country",
+          "fields": ["Temperature"]
+        }
+      },
+      {"calculate": "datum.Temperature + 0.1", "as": "Temp Change (Base: 1951 - 1980)"}
+    ],
+    "projection": {
+      "type": "equirectangular"
+    },
+    "mark": {
+      "type": "geoshape"
+      },
+    "encoding": {
+      "color": {
+        "aggregate" : "average",
+        "field": "Temp Change (Base: 1951 - 1980)",
+        "type": "quantitative",
+        "scale": { "type": "log"}
+      },
+      "tooltip": [
+        {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+        {"field": "Temperature", "type": "quantitative", "title": "Temperature Change (°C)"}
+      ]
+    }
+  
+  }

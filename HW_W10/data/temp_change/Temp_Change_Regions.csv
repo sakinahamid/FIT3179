@@ -1,0 +1,1485 @@
+Region,Unit,Year (Raw),Year,Temperature Change
+Africa,°C,Y1961,1961,-0.017
+Africa,°C,Y1962,1962,-0.04
+Africa,°C,Y1963,1963,0.064
+Africa,°C,Y1964,1964,-0.153
+Africa,°C,Y1965,1965,-0.197
+Africa,°C,Y1966,1966,0.138
+Africa,°C,Y1967,1967,-0.209
+Africa,°C,Y1968,1968,-0.218
+Africa,°C,Y1969,1969,0.354
+Africa,°C,Y1970,1970,0.221
+Africa,°C,Y1971,1971,-0.208
+Africa,°C,Y1972,1972,-0.002
+Africa,°C,Y1973,1973,0.377
+Africa,°C,Y1974,1974,-0.237
+Africa,°C,Y1975,1975,-0.23
+Africa,°C,Y1976,1976,-0.26
+Africa,°C,Y1977,1977,0.232
+Africa,°C,Y1978,1978,0.077
+Africa,°C,Y1979,1979,0.444
+Africa,°C,Y1980,1980,0.366
+Africa,°C,Y1981,1981,0.104
+Africa,°C,Y1982,1982,0.217
+Africa,°C,Y1983,1983,0.408
+Africa,°C,Y1984,1984,0.333
+Africa,°C,Y1985,1985,0.301
+Africa,°C,Y1986,1986,0.283
+Africa,°C,Y1987,1987,0.671
+Africa,°C,Y1988,1988,0.608
+Africa,°C,Y1989,1989,-0.019
+Africa,°C,Y1990,1990,0.574
+Africa,°C,Y1991,1991,0.386
+Africa,°C,Y1992,1992,0.112
+Africa,°C,Y1993,1993,0.407
+Africa,°C,Y1994,1994,0.418
+Africa,°C,Y1995,1995,0.58
+Africa,°C,Y1996,1996,0.551
+Africa,°C,Y1997,1997,0.588
+Africa,°C,Y1998,1998,0.961
+Africa,°C,Y1999,1999,0.666
+Africa,°C,Y2000,2000,0.496
+Africa,°C,Y2001,2001,0.677
+Africa,°C,Y2002,2002,0.894
+Africa,°C,Y2003,2003,0.999
+Africa,°C,Y2004,2004,0.825
+Africa,°C,Y2005,2005,1.1
+Africa,°C,Y2006,2006,0.94
+Africa,°C,Y2007,2007,0.818
+Africa,°C,Y2008,2008,0.754
+Africa,°C,Y2009,2009,1.011
+Africa,°C,Y2010,2010,1.541
+Africa,°C,Y2011,2011,0.949
+Africa,°C,Y2012,2012,0.781
+Africa,°C,Y2013,2013,1.014
+Eastern Africa,°C,Y1961,1961,0.252
+Eastern Africa,°C,Y1962,1962,-0.12
+Eastern Africa,°C,Y1963,1963,-0.212
+Eastern Africa,°C,Y1964,1964,-0.273
+Eastern Africa,°C,Y1965,1965,-0.374
+Eastern Africa,°C,Y1966,1966,0.124
+Eastern Africa,°C,Y1967,1967,-0.042
+Eastern Africa,°C,Y1968,1968,-0.38
+Eastern Africa,°C,Y1969,1969,0.253
+Eastern Africa,°C,Y1970,1970,0.26
+Eastern Africa,°C,Y1971,1971,-0.238
+Eastern Africa,°C,Y1972,1972,-0.025
+Eastern Africa,°C,Y1973,1973,0.382
+Eastern Africa,°C,Y1974,1974,-0.236
+Eastern Africa,°C,Y1975,1975,-0.124
+Eastern Africa,°C,Y1976,1976,-0.064
+Eastern Africa,°C,Y1977,1977,0.31
+Eastern Africa,°C,Y1978,1978,0.155
+Eastern Africa,°C,Y1979,1979,0.174
+Eastern Africa,°C,Y1980,1980,0.391
+Eastern Africa,°C,Y1981,1981,0.066
+Eastern Africa,°C,Y1982,1982,0.218
+Eastern Africa,°C,Y1983,1983,0.612
+Eastern Africa,°C,Y1984,1984,0.248
+Eastern Africa,°C,Y1985,1985,0.131
+Eastern Africa,°C,Y1986,1986,0.12
+Eastern Africa,°C,Y1987,1987,0.658
+Eastern Africa,°C,Y1988,1988,0.667
+Eastern Africa,°C,Y1989,1989,0.033
+Eastern Africa,°C,Y1990,1990,0.372
+Eastern Africa,°C,Y1991,1991,0.315
+Eastern Africa,°C,Y1992,1992,0.492
+Eastern Africa,°C,Y1993,1993,0.182
+Eastern Africa,°C,Y1994,1994,0.393
+Eastern Africa,°C,Y1995,1995,0.607
+Eastern Africa,°C,Y1996,1996,0.461
+Eastern Africa,°C,Y1997,1997,0.543
+Eastern Africa,°C,Y1998,1998,0.741
+Eastern Africa,°C,Y1999,1999,0.268
+Eastern Africa,°C,Y2000,2000,0.432
+Eastern Africa,°C,Y2001,2001,0.547
+Eastern Africa,°C,Y2002,2002,0.772
+Eastern Africa,°C,Y2003,2003,0.874
+Eastern Africa,°C,Y2004,2004,0.596
+Eastern Africa,°C,Y2005,2005,1.051
+Eastern Africa,°C,Y2006,2006,0.792
+Eastern Africa,°C,Y2007,2007,0.76
+Eastern Africa,°C,Y2008,2008,0.613
+Eastern Africa,°C,Y2009,2009,0.986
+Eastern Africa,°C,Y2010,2010,1.233
+Eastern Africa,°C,Y2011,2011,0.983
+Eastern Africa,°C,Y2012,2012,0.99
+Eastern Africa,°C,Y2013,2013,0.96
+Middle Africa,°C,Y1961,1961,-0.1
+Middle Africa,°C,Y1962,1962,-0.176
+Middle Africa,°C,Y1963,1963,0.038
+Middle Africa,°C,Y1964,1964,-0.16
+Middle Africa,°C,Y1965,1965,-0.154
+Middle Africa,°C,Y1966,1966,0.088
+Middle Africa,°C,Y1967,1967,-0.172
+Middle Africa,°C,Y1968,1968,-0.16
+Middle Africa,°C,Y1969,1969,0.231
+Middle Africa,°C,Y1970,1970,0.21
+Middle Africa,°C,Y1971,1971,-0.141
+Middle Africa,°C,Y1972,1972,0.059
+Middle Africa,°C,Y1973,1973,0.523
+Middle Africa,°C,Y1974,1974,-0.09
+Middle Africa,°C,Y1975,1975,-0.107
+Middle Africa,°C,Y1976,1976,-0.133
+Middle Africa,°C,Y1977,1977,0.195
+Middle Africa,°C,Y1978,1978,0.045
+Middle Africa,°C,Y1979,1979,0.382
+Middle Africa,°C,Y1980,1980,0.314
+Middle Africa,°C,Y1981,1981,0.033
+Middle Africa,°C,Y1982,1982,0.124
+Middle Africa,°C,Y1983,1983,0.3
+Middle Africa,°C,Y1984,1984,0.304
+Middle Africa,°C,Y1985,1985,0.203
+Middle Africa,°C,Y1986,1986,0.277
+Middle Africa,°C,Y1987,1987,0.467
+Middle Africa,°C,Y1988,1988,0.334
+Middle Africa,°C,Y1989,1989,-0.203
+Middle Africa,°C,Y1990,1990,0.334
+Middle Africa,°C,Y1991,1991,0.317
+Middle Africa,°C,Y1992,1992,-0.183
+Middle Africa,°C,Y1993,1993,0.178
+Middle Africa,°C,Y1994,1994,0.324
+Middle Africa,°C,Y1995,1995,0.43
+Middle Africa,°C,Y1996,1996,0.231
+Middle Africa,°C,Y1997,1997,0.443
+Middle Africa,°C,Y1998,1998,0.993
+Middle Africa,°C,Y1999,1999,0.454
+Middle Africa,°C,Y2000,2000,0.393
+Middle Africa,°C,Y2001,2001,0.271
+Middle Africa,°C,Y2002,2002,0.725
+Middle Africa,°C,Y2003,2003,0.817
+Middle Africa,°C,Y2004,2004,0.699
+Middle Africa,°C,Y2005,2005,0.994
+Middle Africa,°C,Y2006,2006,0.875
+Middle Africa,°C,Y2007,2007,0.658
+Middle Africa,°C,Y2008,2008,0.547
+Middle Africa,°C,Y2009,2009,0.895
+Middle Africa,°C,Y2010,2010,1.191
+Middle Africa,°C,Y2011,2011,0.758
+Middle Africa,°C,Y2012,2012,0.504
+Middle Africa,°C,Y2013,2013,0.863
+Northern Africa,°C,Y1961,1961,-0.03
+Northern Africa,°C,Y1962,1962,0.129
+Northern Africa,°C,Y1963,1963,0.192
+Northern Africa,°C,Y1964,1964,-0.083
+Northern Africa,°C,Y1965,1965,-0.153
+Northern Africa,°C,Y1966,1966,0.25
+Northern Africa,°C,Y1967,1967,-0.35
+Northern Africa,°C,Y1968,1968,-0.163
+Northern Africa,°C,Y1969,1969,0.406
+Northern Africa,°C,Y1970,1970,0.048
+Northern Africa,°C,Y1971,1971,-0.329
+Northern Africa,°C,Y1972,1972,-0.146
+Northern Africa,°C,Y1973,1973,0.091
+Northern Africa,°C,Y1974,1974,-0.29
+Northern Africa,°C,Y1975,1975,-0.359
+Northern Africa,°C,Y1976,1976,-0.458
+Northern Africa,°C,Y1977,1977,0.221
+Northern Africa,°C,Y1978,1978,-0.045
+Northern Africa,°C,Y1979,1979,0.561
+Northern Africa,°C,Y1980,1980,0.242
+Northern Africa,°C,Y1981,1981,0.138
+Northern Africa,°C,Y1982,1982,0.195
+Northern Africa,°C,Y1983,1983,0.046
+Northern Africa,°C,Y1984,1984,0.153
+Northern Africa,°C,Y1985,1985,0.363
+Northern Africa,°C,Y1986,1986,0.314
+Northern Africa,°C,Y1987,1987,0.545
+Northern Africa,°C,Y1988,1988,0.826
+Northern Africa,°C,Y1989,1989,0.1
+Northern Africa,°C,Y1990,1990,0.765
+Northern Africa,°C,Y1991,1991,0.303
+Northern Africa,°C,Y1992,1992,-0.211
+Northern Africa,°C,Y1993,1993,0.417
+Northern Africa,°C,Y1994,1994,0.595
+Northern Africa,°C,Y1995,1995,0.527
+Northern Africa,°C,Y1996,1996,0.68
+Northern Africa,°C,Y1997,1997,0.68
+Northern Africa,°C,Y1998,1998,0.915
+Northern Africa,°C,Y1999,1999,1.081
+Northern Africa,°C,Y2000,2000,0.579
+Northern Africa,°C,Y2001,2001,1.197
+Northern Africa,°C,Y2002,2002,1.119
+Northern Africa,°C,Y2003,2003,1.187
+Northern Africa,°C,Y2004,2004,0.984
+Northern Africa,°C,Y2005,2005,1.075
+Northern Africa,°C,Y2006,2006,1.155
+Northern Africa,°C,Y2007,2007,0.85
+Northern Africa,°C,Y2008,2008,1.041
+Northern Africa,°C,Y2009,2009,1.16
+Northern Africa,°C,Y2010,2010,2.057
+Northern Africa,°C,Y2011,2011,1.197
+Northern Africa,°C,Y2012,2012,1.094
+Northern Africa,°C,Y2013,2013,1.24
+Southern Africa,°C,Y1961,1961,0.212
+Southern Africa,°C,Y1962,1962,0.13
+Southern Africa,°C,Y1963,1963,0.013
+Southern Africa,°C,Y1964,1964,-0.058
+Southern Africa,°C,Y1965,1965,-0.01
+Southern Africa,°C,Y1966,1966,0.248
+Southern Africa,°C,Y1967,1967,-0.179
+Southern Africa,°C,Y1968,1968,-0.27
+Southern Africa,°C,Y1969,1969,0.254
+Southern Africa,°C,Y1970,1970,0.457
+Southern Africa,°C,Y1971,1971,-0.129
+Southern Africa,°C,Y1972,1972,-0.029
+Southern Africa,°C,Y1973,1973,0.484
+Southern Africa,°C,Y1974,1974,-0.508
+Southern Africa,°C,Y1975,1975,-0.134
+Southern Africa,°C,Y1976,1976,-0.598
+Southern Africa,°C,Y1977,1977,0.171
+Southern Africa,°C,Y1978,1978,-0.035
+Southern Africa,°C,Y1979,1979,0.351
+Southern Africa,°C,Y1980,1980,0.127
+Southern Africa,°C,Y1981,1981,-0.276
+Southern Africa,°C,Y1982,1982,0.275
+Southern Africa,°C,Y1983,1983,0.747
+Southern Africa,°C,Y1984,1984,0.556
+Southern Africa,°C,Y1985,1985,0.508
+Southern Africa,°C,Y1986,1986,0.329
+Southern Africa,°C,Y1987,1987,0.895
+Southern Africa,°C,Y1988,1988,0.286
+Southern Africa,°C,Y1989,1989,-0.226
+Southern Africa,°C,Y1990,1990,0.53
+Southern Africa,°C,Y1991,1991,0.238
+Southern Africa,°C,Y1992,1992,0.777
+Southern Africa,°C,Y1993,1993,0.76
+Southern Africa,°C,Y1994,1994,0.154
+Southern Africa,°C,Y1995,1995,0.881
+Southern Africa,°C,Y1996,1996,-0.065
+Southern Africa,°C,Y1997,1997,0.161
+Southern Africa,°C,Y1998,1998,1.036
+Southern Africa,°C,Y1999,1999,0.955
+Southern Africa,°C,Y2000,2000,0.024
+Southern Africa,°C,Y2001,2001,0.381
+Southern Africa,°C,Y2002,2002,0.613
+Southern Africa,°C,Y2003,2003,0.993
+Southern Africa,°C,Y2004,2004,0.791
+Southern Africa,°C,Y2005,2005,1.118
+Southern Africa,°C,Y2006,2006,0.083
+Southern Africa,°C,Y2007,2007,0.846
+Southern Africa,°C,Y2008,2008,0.659
+Southern Africa,°C,Y2009,2009,0.601
+Southern Africa,°C,Y2010,2010,1.295
+Southern Africa,°C,Y2011,2011,0.248
+Southern Africa,°C,Y2012,2012,0.522
+Southern Africa,°C,Y2013,2013,0.884
+Western Africa,°C,Y1961,1961,-0.289
+Western Africa,°C,Y1962,1962,-0.12
+Western Africa,°C,Y1963,1963,0.22
+Western Africa,°C,Y1964,1964,-0.159
+Western Africa,°C,Y1965,1965,-0.203
+Western Africa,°C,Y1966,1966,0.005
+Western Africa,°C,Y1967,1967,-0.241
+Western Africa,°C,Y1968,1968,-0.167
+Western Africa,°C,Y1969,1969,0.56
+Western Africa,°C,Y1970,1970,0.33
+Western Africa,°C,Y1971,1971,-0.116
+Western Africa,°C,Y1972,1972,0.166
+Western Africa,°C,Y1973,1973,0.566
+Western Africa,°C,Y1974,1974,-0.206
+Western Africa,°C,Y1975,1975,-0.333
+Western Africa,°C,Y1976,1976,-0.179
+Western Africa,°C,Y1977,1977,0.233
+Western Africa,°C,Y1978,1978,0.25
+Western Africa,°C,Y1979,1979,0.666
+Western Africa,°C,Y1980,1980,0.67
+Western Africa,°C,Y1981,1981,0.337
+Western Africa,°C,Y1982,1982,0.319
+Western Africa,°C,Y1983,1983,0.667
+Western Africa,°C,Y1984,1984,0.603
+Western Africa,°C,Y1985,1985,0.403
+Western Africa,°C,Y1986,1986,0.397
+Western Africa,°C,Y1987,1987,0.982
+Western Africa,°C,Y1988,1988,0.679
+Western Africa,°C,Y1989,1989,0.05
+Western Africa,°C,Y1990,1990,0.793
+Western Africa,°C,Y1991,1991,0.712
+Western Africa,°C,Y1992,1992,0.194
+Western Africa,°C,Y1993,1993,0.712
+Western Africa,°C,Y1994,1994,0.412
+Western Africa,°C,Y1995,1995,0.66
+Western Africa,°C,Y1996,1996,1.078
+Western Africa,°C,Y1997,1997,0.84
+Western Africa,°C,Y1998,1998,1.185
+Western Africa,°C,Y1999,1999,0.6
+Western Africa,°C,Y2000,2000,0.767
+Western Africa,°C,Y2001,2001,0.655
+Western Africa,°C,Y2002,2002,1.011
+Western Africa,°C,Y2003,2003,1.063
+Western Africa,°C,Y2004,2004,0.993
+Western Africa,°C,Y2005,2005,1.289
+Western Africa,°C,Y2006,2006,1.235
+Western Africa,°C,Y2007,2007,0.994
+Western Africa,°C,Y2008,2008,0.764
+Western Africa,°C,Y2009,2009,1.131
+Western Africa,°C,Y2010,2010,1.624
+Western Africa,°C,Y2011,2011,1.181
+Western Africa,°C,Y2012,2012,0.672
+Western Africa,°C,Y2013,2013,1.067
+Americas,°C,Y1961,1961,0.052
+Americas,°C,Y1962,1962,-0.084
+Americas,°C,Y1963,1963,0.253
+Americas,°C,Y1964,1964,-0.251
+Americas,°C,Y1965,1965,-0.304
+Americas,°C,Y1966,1966,-0.101
+Americas,°C,Y1967,1967,-0.107
+Americas,°C,Y1968,1968,0.006
+Americas,°C,Y1969,1969,0.11
+Americas,°C,Y1970,1970,0.159
+Americas,°C,Y1971,1971,-0.24
+Americas,°C,Y1972,1972,-0.448
+Americas,°C,Y1973,1973,0.173
+Americas,°C,Y1974,1974,-0.286
+Americas,°C,Y1975,1975,-0.125
+Americas,°C,Y1976,1976,-0.133
+Americas,°C,Y1977,1977,0.499
+Americas,°C,Y1978,1978,-0.064
+Americas,°C,Y1979,1979,-0.06
+Americas,°C,Y1980,1980,0.509
+Americas,°C,Y1981,1981,0.698
+Americas,°C,Y1982,1982,-0.084
+Americas,°C,Y1983,1983,0.455
+Americas,°C,Y1984,1984,0.08
+Americas,°C,Y1985,1985,-0.002
+Americas,°C,Y1986,1986,0.297
+Americas,°C,Y1987,1987,0.835
+Americas,°C,Y1988,1988,0.561
+Americas,°C,Y1989,1989,0.188
+Americas,°C,Y1990,1990,0.371
+Americas,°C,Y1991,1991,0.408
+Americas,°C,Y1992,1992,0.255
+Americas,°C,Y1993,1993,0.274
+Americas,°C,Y1994,1994,0.506
+Americas,°C,Y1995,1995,0.713
+Americas,°C,Y1996,1996,0.189
+Americas,°C,Y1997,1997,0.565
+Americas,°C,Y1998,1998,1.421
+Americas,°C,Y1999,1999,0.809
+Americas,°C,Y2000,2000,0.735
+Americas,°C,Y2001,2001,0.852
+Americas,°C,Y2002,2002,0.789
+Americas,°C,Y2003,2003,0.999
+Americas,°C,Y2004,2004,0.694
+Americas,°C,Y2005,2005,1.048
+Americas,°C,Y2006,2006,1.234
+Americas,°C,Y2007,2007,0.941
+Americas,°C,Y2008,2008,0.593
+Americas,°C,Y2009,2009,0.709
+Americas,°C,Y2010,2010,1.33
+Americas,°C,Y2011,2011,0.872
+Americas,°C,Y2012,2012,1.352
+Americas,°C,Y2013,2013,0.864
+Northern America,°C,Y1961,1961,0.017
+Northern America,°C,Y1962,1962,-0.058
+Northern America,°C,Y1963,1963,0.372
+Northern America,°C,Y1964,1964,-0.285
+Northern America,°C,Y1965,1965,-0.594
+Northern America,°C,Y1966,1966,-0.185
+Northern America,°C,Y1967,1967,-0.195
+Northern America,°C,Y1968,1968,0.196
+Northern America,°C,Y1969,1969,-0.138
+Northern America,°C,Y1970,1970,0.194
+Northern America,°C,Y1971,1971,-0.227
+Northern America,°C,Y1972,1972,-1.028
+Northern America,°C,Y1973,1973,0.128
+Northern America,°C,Y1974,1974,-0.376
+Northern America,°C,Y1975,1975,-0.093
+Northern America,°C,Y1976,1976,-0.021
+Northern America,°C,Y1977,1977,0.746
+Northern America,°C,Y1978,1978,-0.29
+Northern America,°C,Y1979,1979,-0.243
+Northern America,°C,Y1980,1980,0.675
+Northern America,°C,Y1981,1981,1.193
+Northern America,°C,Y1982,1982,-0.508
+Northern America,°C,Y1983,1983,0.471
+Northern America,°C,Y1984,1984,0.038
+Northern America,°C,Y1985,1985,-0.144
+Northern America,°C,Y1986,1986,0.302
+Northern America,°C,Y1987,1987,1.11
+Northern America,°C,Y1988,1988,0.839
+Northern America,°C,Y1989,1989,0.147
+Northern America,°C,Y1990,1990,0.363
+Northern America,°C,Y1991,1991,0.419
+Northern America,°C,Y1992,1992,0.226
+Northern America,°C,Y1993,1993,0.154
+Northern America,°C,Y1994,1994,0.451
+Northern America,°C,Y1995,1995,0.766
+Northern America,°C,Y1996,1996,-0.055
+Northern America,°C,Y1997,1997,0.403
+Northern America,°C,Y1998,1998,1.864
+Northern America,°C,Y1999,1999,1.219
+Northern America,°C,Y2000,2000,1.141
+Northern America,°C,Y2001,2001,1.102
+Northern America,°C,Y2002,2002,0.757
+Northern America,°C,Y2003,2003,1.147
+Northern America,°C,Y2004,2004,0.696
+Northern America,°C,Y2005,2005,1.235
+Northern America,°C,Y2006,2006,1.692
+Northern America,°C,Y2007,2007,1.237
+Northern America,°C,Y2008,2008,0.537
+Northern America,°C,Y2009,2009,0.473
+Northern America,°C,Y2010,2010,1.826
+Northern America,°C,Y2011,2011,1.002
+Northern America,°C,Y2012,2012,1.786
+Northern America,°C,Y2013,2013,0.902
+Central America,°C,Y1961,1961,-0.139
+Central America,°C,Y1962,1962,0.114
+Central America,°C,Y1963,1963,0.154
+Central America,°C,Y1964,1964,-0.261
+Central America,°C,Y1965,1965,-0.076
+Central America,°C,Y1966,1966,-0.196
+Central America,°C,Y1967,1967,-0.148
+Central America,°C,Y1968,1968,-0.4
+Central America,°C,Y1969,1969,0.195
+Central America,°C,Y1970,1970,-0.261
+Central America,°C,Y1971,1971,-0.096
+Central America,°C,Y1972,1972,0.296
+Central America,°C,Y1973,1973,-0.044
+Central America,°C,Y1974,1974,-0.127
+Central America,°C,Y1975,1975,-0.245
+Central America,°C,Y1976,1976,-0.405
+Central America,°C,Y1977,1977,0.092
+Central America,°C,Y1978,1978,0.206
+Central America,°C,Y1979,1979,0.042
+Central America,°C,Y1980,1980,0.436
+Central America,°C,Y1981,1981,0.168
+Central America,°C,Y1982,1982,0.583
+Central America,°C,Y1983,1983,0.19
+Central America,°C,Y1984,1984,-0.049
+Central America,°C,Y1985,1985,0.104
+Central America,°C,Y1986,1986,0.268
+Central America,°C,Y1987,1987,-0.014
+Central America,°C,Y1988,1988,0.206
+Central America,°C,Y1989,1989,0.397
+Central America,°C,Y1990,1990,0.272
+Central America,°C,Y1991,1991,0.307
+Central America,°C,Y1992,1992,0.151
+Central America,°C,Y1993,1993,0.334
+Central America,°C,Y1994,1994,0.689
+Central America,°C,Y1995,1995,0.77
+Central America,°C,Y1996,1996,0.459
+Central America,°C,Y1997,1997,0.544
+Central America,°C,Y1998,1998,0.783
+Central America,°C,Y1999,1999,0.544
+Central America,°C,Y2000,2000,0.522
+Central America,°C,Y2001,2001,0.516
+Central America,°C,Y2002,2002,0.689
+Central America,°C,Y2003,2003,0.823
+Central America,°C,Y2004,2004,0.358
+Central America,°C,Y2005,2005,0.761
+Central America,°C,Y2006,2006,0.808
+Central America,°C,Y2007,2007,0.531
+Central America,°C,Y2008,2008,0.522
+Central America,°C,Y2009,2009,1.028
+Central America,°C,Y2010,2010,0.393
+Central America,°C,Y2011,2011,0.935
+Central America,°C,Y2012,2012,0.827
+Central America,°C,Y2013,2013,0.772
+Caribbean,°C,Y1961,1961,-0.004
+Caribbean,°C,Y1962,1962,-0.027
+Caribbean,°C,Y1963,1963,-0.091
+Caribbean,°C,Y1964,1964,0.107
+Caribbean,°C,Y1965,1965,-0.142
+Caribbean,°C,Y1966,1966,-0.179
+Caribbean,°C,Y1967,1967,-0.242
+Caribbean,°C,Y1968,1968,-0.281
+Caribbean,°C,Y1969,1969,0.119
+Caribbean,°C,Y1970,1970,-0.244
+Caribbean,°C,Y1971,1971,-0.133
+Caribbean,°C,Y1972,1972,0.177
+Caribbean,°C,Y1973,1973,0.337
+Caribbean,°C,Y1974,1974,-0.144
+Caribbean,°C,Y1975,1975,0.247
+Caribbean,°C,Y1976,1976,-0.32
+Caribbean,°C,Y1977,1977,0.161
+Caribbean,°C,Y1978,1978,0.101
+Caribbean,°C,Y1979,1979,0.198
+Caribbean,°C,Y1980,1980,0.508
+Caribbean,°C,Y1981,1981,0.189
+Caribbean,°C,Y1982,1982,0.418
+Caribbean,°C,Y1983,1983,0.387
+Caribbean,°C,Y1984,1984,0.212
+Caribbean,°C,Y1985,1985,0.118
+Caribbean,°C,Y1986,1986,0.243
+Caribbean,°C,Y1987,1987,0.691
+Caribbean,°C,Y1988,1988,0.568
+Caribbean,°C,Y1989,1989,0.454
+Caribbean,°C,Y1990,1990,0.683
+Caribbean,°C,Y1991,1991,0.655
+Caribbean,°C,Y1992,1992,0.487
+Caribbean,°C,Y1993,1993,0.471
+Caribbean,°C,Y1994,1994,0.885
+Caribbean,°C,Y1995,1995,0.914
+Caribbean,°C,Y1996,1996,0.5
+Caribbean,°C,Y1997,1997,0.958
+Caribbean,°C,Y1998,1998,1.205
+Caribbean,°C,Y1999,1999,0.788
+Caribbean,°C,Y2000,2000,0.561
+Caribbean,°C,Y2001,2001,0.571
+Caribbean,°C,Y2002,2002,0.907
+Caribbean,°C,Y2003,2003,1.094
+Caribbean,°C,Y2004,2004,0.782
+Caribbean,°C,Y2005,2005,0.728
+Caribbean,°C,Y2006,2006,0.868
+Caribbean,°C,Y2007,2007,0.955
+Caribbean,°C,Y2008,2008,0.534
+Caribbean,°C,Y2009,2009,0.659
+Caribbean,°C,Y2010,2010,0.867
+Caribbean,°C,Y2011,2011,0.542
+Caribbean,°C,Y2012,2012,0.647
+Caribbean,°C,Y2013,2013,0.874
+South America,°C,Y1961,1961,0.116
+South America,°C,Y1962,1962,-0.139
+South America,°C,Y1963,1963,0.139
+South America,°C,Y1964,1964,-0.217
+South America,°C,Y1965,1965,-0.015
+South America,°C,Y1966,1966,0.007
+South America,°C,Y1967,1967,-0.001
+South America,°C,Y1968,1968,-0.147
+South America,°C,Y1969,1969,0.374
+South America,°C,Y1970,1970,0.184
+South America,°C,Y1971,1971,-0.277
+South America,°C,Y1972,1972,0.085
+South America,°C,Y1973,1973,0.251
+South America,°C,Y1974,1974,-0.209
+South America,°C,Y1975,1975,-0.149
+South America,°C,Y1976,1976,-0.217
+South America,°C,Y1977,1977,0.285
+South America,°C,Y1978,1978,0.148
+South America,°C,Y1979,1979,0.125
+South America,°C,Y1980,1980,0.335
+South America,°C,Y1981,1981,0.228
+South America,°C,Y1982,1982,0.289
+South America,°C,Y1983,1983,0.476
+South America,°C,Y1984,1984,0.144
+South America,°C,Y1985,1985,0.14
+South America,°C,Y1986,1986,0.296
+South America,°C,Y1987,1987,0.649
+South America,°C,Y1988,1988,0.3
+South America,°C,Y1989,1989,0.203
+South America,°C,Y1990,1990,0.389
+South America,°C,Y1991,1991,0.408
+South America,°C,Y1992,1992,0.299
+South America,°C,Y1993,1993,0.396
+South America,°C,Y1994,1994,0.536
+South America,°C,Y1995,1995,0.642
+South America,°C,Y1996,1996,0.418
+South America,°C,Y1997,1997,0.744
+South America,°C,Y1998,1998,1.017
+South America,°C,Y1999,1999,0.387
+South America,°C,Y2000,2000,0.312
+South America,°C,Y2001,2001,0.623
+South America,°C,Y2002,2002,0.837
+South America,°C,Y2003,2003,0.856
+South America,°C,Y2004,2004,0.738
+South America,°C,Y2005,2005,0.883
+South America,°C,Y2006,2006,0.786
+South America,°C,Y2007,2007,0.666
+South America,°C,Y2008,2008,0.666
+South America,°C,Y2009,2009,0.933
+South America,°C,Y2010,2010,0.906
+South America,°C,Y2011,2011,0.721
+South America,°C,Y2012,2012,0.943
+South America,°C,Y2013,2013,0.834
+Asia,°C,Y1961,1961,0.049
+Asia,°C,Y1962,1962,-0.008
+Asia,°C,Y1963,1963,0.266
+Asia,°C,Y1964,1964,-0.166
+Asia,°C,Y1965,1965,-0.033
+Asia,°C,Y1966,1966,0.326
+Asia,°C,Y1967,1967,-0.308
+Asia,°C,Y1968,1968,-0.337
+Asia,°C,Y1969,1969,-0.017
+Asia,°C,Y1970,1970,0.073
+Asia,°C,Y1971,1971,-0.122
+Asia,°C,Y1972,1972,-0.164
+Asia,°C,Y1973,1973,0.251
+Asia,°C,Y1974,1974,-0.132
+Asia,°C,Y1975,1975,0.018
+Asia,°C,Y1976,1976,-0.328
+Asia,°C,Y1977,1977,0.101
+Asia,°C,Y1978,1978,0.162
+Asia,°C,Y1979,1979,0.448
+Asia,°C,Y1980,1980,0.28
+Asia,°C,Y1981,1981,0.207
+Asia,°C,Y1982,1982,0.109
+Asia,°C,Y1983,1983,-0.013
+Asia,°C,Y1984,1984,-0.118
+Asia,°C,Y1985,1985,0.016
+Asia,°C,Y1986,1986,0.056
+Asia,°C,Y1987,1987,0.406
+Asia,°C,Y1988,1988,0.423
+Asia,°C,Y1989,1989,0.259
+Asia,°C,Y1990,1990,0.527
+Asia,°C,Y1991,1991,0.39
+Asia,°C,Y1992,1992,-0.059
+Asia,°C,Y1993,1993,0.073
+Asia,°C,Y1994,1994,0.522
+Asia,°C,Y1995,1995,0.616
+Asia,°C,Y1996,1996,0.173
+Asia,°C,Y1997,1997,0.614
+Asia,°C,Y1998,1998,1.047
+Asia,°C,Y1999,1999,1.091
+Asia,°C,Y2000,2000,0.68
+Asia,°C,Y2001,2001,1.019
+Asia,°C,Y2002,2002,1.16
+Asia,°C,Y2003,2003,0.644
+Asia,°C,Y2004,2004,1.088
+Asia,°C,Y2005,2005,0.862
+Asia,°C,Y2006,2006,1.101
+Asia,°C,Y2007,2007,1.182
+Asia,°C,Y2008,2008,0.873
+Asia,°C,Y2009,2009,1.075
+Asia,°C,Y2010,2010,1.251
+Asia,°C,Y2011,2011,0.701
+Asia,°C,Y2012,2012,0.693
+Asia,°C,Y2013,2013,1.054
+Central Asia,°C,Y1961,1961,0
+Central Asia,°C,Y1962,1962,0
+Central Asia,°C,Y1963,1963,0
+Central Asia,°C,Y1964,1964,0
+Central Asia,°C,Y1965,1965,0
+Central Asia,°C,Y1966,1966,0
+Central Asia,°C,Y1967,1967,0
+Central Asia,°C,Y1968,1968,0
+Central Asia,°C,Y1969,1969,0
+Central Asia,°C,Y1970,1970,0
+Central Asia,°C,Y1971,1971,0
+Central Asia,°C,Y1972,1972,0
+Central Asia,°C,Y1973,1973,0
+Central Asia,°C,Y1974,1974,0
+Central Asia,°C,Y1975,1975,0
+Central Asia,°C,Y1976,1976,0
+Central Asia,°C,Y1977,1977,0
+Central Asia,°C,Y1978,1978,0
+Central Asia,°C,Y1979,1979,0
+Central Asia,°C,Y1980,1980,0
+Central Asia,°C,Y1981,1981,0
+Central Asia,°C,Y1982,1982,0
+Central Asia,°C,Y1983,1983,0
+Central Asia,°C,Y1984,1984,0
+Central Asia,°C,Y1985,1985,0
+Central Asia,°C,Y1986,1986,0
+Central Asia,°C,Y1987,1987,0
+Central Asia,°C,Y1988,1988,0
+Central Asia,°C,Y1989,1989,0
+Central Asia,°C,Y1990,1990,0
+Central Asia,°C,Y1991,1991,0
+Central Asia,°C,Y1992,1992,0.2
+Central Asia,°C,Y1993,1993,-0.302
+Central Asia,°C,Y1994,1994,0.037
+Central Asia,°C,Y1995,1995,1.753
+Central Asia,°C,Y1996,1996,-0.357
+Central Asia,°C,Y1997,1997,1.753
+Central Asia,°C,Y1998,1998,0.589
+Central Asia,°C,Y1999,1999,1.345
+Central Asia,°C,Y2000,2000,1.437
+Central Asia,°C,Y2001,2001,1.623
+Central Asia,°C,Y2002,2002,2.075
+Central Asia,°C,Y2003,2003,0.142
+Central Asia,°C,Y2004,2004,2.021
+Central Asia,°C,Y2005,2005,1.463
+Central Asia,°C,Y2006,2006,1.5
+Central Asia,°C,Y2007,2007,1.932
+Central Asia,°C,Y2008,2008,1.327
+Central Asia,°C,Y2009,2009,1.149
+Central Asia,°C,Y2010,2010,1.448
+Central Asia,°C,Y2011,2011,0.875
+Central Asia,°C,Y2012,2012,0.975
+Central Asia,°C,Y2013,2013,1.604
+Eastern Asia,°C,Y1961,1961,0.27
+Eastern Asia,°C,Y1962,1962,-0.124
+Eastern Asia,°C,Y1963,1963,0.386
+Eastern Asia,°C,Y1964,1964,-0.026
+Eastern Asia,°C,Y1965,1965,0.159
+Eastern Asia,°C,Y1966,1966,0.202
+Eastern Asia,°C,Y1967,1967,-0.282
+Eastern Asia,°C,Y1968,1968,-0.468
+Eastern Asia,°C,Y1969,1969,-0.299
+Eastern Asia,°C,Y1970,1970,-0.313
+Eastern Asia,°C,Y1971,1971,0.01
+Eastern Asia,°C,Y1972,1972,0.048
+Eastern Asia,°C,Y1973,1973,0.451
+Eastern Asia,°C,Y1974,1974,-0.007
+Eastern Asia,°C,Y1975,1975,0.308
+Eastern Asia,°C,Y1976,1976,-0.37
+Eastern Asia,°C,Y1977,1977,-0.038
+Eastern Asia,°C,Y1978,1978,0.338
+Eastern Asia,°C,Y1979,1979,0.393
+Eastern Asia,°C,Y1980,1980,0.253
+Eastern Asia,°C,Y1981,1981,0.172
+Eastern Asia,°C,Y1982,1982,0.472
+Eastern Asia,°C,Y1983,1983,0.201
+Eastern Asia,°C,Y1984,1984,-0.183
+Eastern Asia,°C,Y1985,1985,-0.145
+Eastern Asia,°C,Y1986,1986,-0.015
+Eastern Asia,°C,Y1987,1987,0.396
+Eastern Asia,°C,Y1988,1988,0.415
+Eastern Asia,°C,Y1989,1989,0.565
+Eastern Asia,°C,Y1990,1990,0.958
+Eastern Asia,°C,Y1991,1991,0.598
+Eastern Asia,°C,Y1992,1992,0.234
+Eastern Asia,°C,Y1993,1993,0.292
+Eastern Asia,°C,Y1994,1994,0.826
+Eastern Asia,°C,Y1995,1995,0.655
+Eastern Asia,°C,Y1996,1996,0.217
+Eastern Asia,°C,Y1997,1997,0.885
+Eastern Asia,°C,Y1998,1998,1.389
+Eastern Asia,°C,Y1999,1999,1.291
+Eastern Asia,°C,Y2000,2000,0.628
+Eastern Asia,°C,Y2001,2001,1.1
+Eastern Asia,°C,Y2002,2002,1.196
+Eastern Asia,°C,Y2003,2003,0.764
+Eastern Asia,°C,Y2004,2004,1.201
+Eastern Asia,°C,Y2005,2005,1.022
+Eastern Asia,°C,Y2006,2006,1.192
+Eastern Asia,°C,Y2007,2007,1.676
+Eastern Asia,°C,Y2008,2008,1.172
+Eastern Asia,°C,Y2009,2009,1.323
+Eastern Asia,°C,Y2010,2010,0.868
+Eastern Asia,°C,Y2011,2011,0.775
+Eastern Asia,°C,Y2012,2012,0.563
+Eastern Asia,°C,Y2013,2013,1.048
+Southern Asia,°C,Y1961,1961,-0.16
+Southern Asia,°C,Y1962,1962,-0.24
+Southern Asia,°C,Y1963,1963,0.272
+Southern Asia,°C,Y1964,1964,-0.285
+Southern Asia,°C,Y1965,1965,-0.174
+Southern Asia,°C,Y1966,1966,0.336
+Southern Asia,°C,Y1967,1967,-0.256
+Southern Asia,°C,Y1968,1968,-0.283
+Southern Asia,°C,Y1969,1969,0.045
+Southern Asia,°C,Y1970,1970,0.418
+Southern Asia,°C,Y1971,1971,-0.148
+Southern Asia,°C,Y1972,1972,-0.395
+Southern Asia,°C,Y1973,1973,0.162
+Southern Asia,°C,Y1974,1974,-0.231
+Southern Asia,°C,Y1975,1975,-0.321
+Southern Asia,°C,Y1976,1976,-0.214
+Southern Asia,°C,Y1977,1977,0.256
+Southern Asia,°C,Y1978,1978,-0.007
+Southern Asia,°C,Y1979,1979,0.355
+Southern Asia,°C,Y1980,1980,0.435
+Southern Asia,°C,Y1981,1981,0.264
+Southern Asia,°C,Y1982,1982,-0.152
+Southern Asia,°C,Y1983,1983,-0.175
+Southern Asia,°C,Y1984,1984,-0.072
+Southern Asia,°C,Y1985,1985,0.175
+Southern Asia,°C,Y1986,1986,0.057
+Southern Asia,°C,Y1987,1987,0.439
+Southern Asia,°C,Y1988,1988,0.57
+Southern Asia,°C,Y1989,1989,-0.042
+Southern Asia,°C,Y1990,1990,0.219
+Southern Asia,°C,Y1991,1991,0.095
+Southern Asia,°C,Y1992,1992,-0.314
+Southern Asia,°C,Y1993,1993,0.09
+Southern Asia,°C,Y1994,1994,0.265
+Southern Asia,°C,Y1995,1995,0.266
+Southern Asia,°C,Y1996,1996,0.142
+Southern Asia,°C,Y1997,1997,0.062
+Southern Asia,°C,Y1998,1998,0.665
+Southern Asia,°C,Y1999,1999,0.832
+Southern Asia,°C,Y2000,2000,0.608
+Southern Asia,°C,Y2001,2001,0.801
+Southern Asia,°C,Y2002,2002,1.028
+Southern Asia,°C,Y2003,2003,0.638
+Southern Asia,°C,Y2004,2004,0.853
+Southern Asia,°C,Y2005,2005,0.52
+Southern Asia,°C,Y2006,2006,1.038
+Southern Asia,°C,Y2007,2007,0.605
+Southern Asia,°C,Y2008,2008,0.456
+Southern Asia,°C,Y2009,2009,1.027
+Southern Asia,°C,Y2010,2010,1.384
+Southern Asia,°C,Y2011,2011,0.679
+Southern Asia,°C,Y2012,2012,0.49
+Southern Asia,°C,Y2013,2013,0.774
+South-Eastern Asia,°C,Y1961,1961,-0.052
+South-Eastern Asia,°C,Y1962,1962,-0.089
+South-Eastern Asia,°C,Y1963,1963,-0.211
+South-Eastern Asia,°C,Y1964,1964,0.003
+South-Eastern Asia,°C,Y1965,1965,-0.238
+South-Eastern Asia,°C,Y1966,1966,0.235
+South-Eastern Asia,°C,Y1967,1967,-0.11
+South-Eastern Asia,°C,Y1968,1968,-0.083
+South-Eastern Asia,°C,Y1969,1969,0.271
+South-Eastern Asia,°C,Y1970,1970,0.077
+South-Eastern Asia,°C,Y1971,1971,-0.29
+South-Eastern Asia,°C,Y1972,1972,-0.003
+South-Eastern Asia,°C,Y1973,1973,0.323
+South-Eastern Asia,°C,Y1974,1974,-0.233
+South-Eastern Asia,°C,Y1975,1975,0.018
+South-Eastern Asia,°C,Y1976,1976,-0.213
+South-Eastern Asia,°C,Y1977,1977,0.064
+South-Eastern Asia,°C,Y1978,1978,0.151
+South-Eastern Asia,°C,Y1979,1979,0.34
+South-Eastern Asia,°C,Y1980,1980,0.279
+South-Eastern Asia,°C,Y1981,1981,0.241
+South-Eastern Asia,°C,Y1982,1982,0.04
+South-Eastern Asia,°C,Y1983,1983,0.354
+South-Eastern Asia,°C,Y1984,1984,-0.04
+South-Eastern Asia,°C,Y1985,1985,0.164
+South-Eastern Asia,°C,Y1986,1986,0.087
+South-Eastern Asia,°C,Y1987,1987,0.584
+South-Eastern Asia,°C,Y1988,1988,0.367
+South-Eastern Asia,°C,Y1989,1989,0.154
+South-Eastern Asia,°C,Y1990,1990,0.285
+South-Eastern Asia,°C,Y1991,1991,0.397
+South-Eastern Asia,°C,Y1992,1992,0.265
+South-Eastern Asia,°C,Y1993,1993,0.218
+South-Eastern Asia,°C,Y1994,1994,0.317
+South-Eastern Asia,°C,Y1995,1995,0.446
+South-Eastern Asia,°C,Y1996,1996,0.291
+South-Eastern Asia,°C,Y1997,1997,0.369
+South-Eastern Asia,°C,Y1998,1998,1.148
+South-Eastern Asia,°C,Y1999,1999,0.445
+South-Eastern Asia,°C,Y2000,2000,0.21
+South-Eastern Asia,°C,Y2001,2001,0.575
+South-Eastern Asia,°C,Y2002,2002,0.61
+South-Eastern Asia,°C,Y2003,2003,0.68
+South-Eastern Asia,°C,Y2004,2004,0.523
+South-Eastern Asia,°C,Y2005,2005,0.757
+South-Eastern Asia,°C,Y2006,2006,0.576
+South-Eastern Asia,°C,Y2007,2007,0.496
+South-Eastern Asia,°C,Y2008,2008,0.324
+South-Eastern Asia,°C,Y2009,2009,0.616
+South-Eastern Asia,°C,Y2010,2010,0.968
+South-Eastern Asia,°C,Y2011,2011,0.328
+South-Eastern Asia,°C,Y2012,2012,0.663
+South-Eastern Asia,°C,Y2013,2013,0.889
+Western Asia,°C,Y1961,1961,-0.1
+Western Asia,°C,Y1962,1962,0.705
+Western Asia,°C,Y1963,1963,0.412
+Western Asia,°C,Y1964,1964,-0.508
+Western Asia,°C,Y1965,1965,-0.112
+Western Asia,°C,Y1966,1966,0.71
+Western Asia,°C,Y1967,1967,-0.641
+Western Asia,°C,Y1968,1968,-0.328
+Western Asia,°C,Y1969,1969,0.328
+Western Asia,°C,Y1970,1970,0.534
+Western Asia,°C,Y1971,1971,-0.253
+Western Asia,°C,Y1972,1972,-0.515
+Western Asia,°C,Y1973,1973,-0.195
+Western Asia,°C,Y1974,1974,-0.202
+Western Asia,°C,Y1975,1975,-0.212
+Western Asia,°C,Y1976,1976,-0.501
+Western Asia,°C,Y1977,1977,0.256
+Western Asia,°C,Y1978,1978,-0.023
+Western Asia,°C,Y1979,1979,0.826
+Western Asia,°C,Y1980,1980,0.117
+Western Asia,°C,Y1981,1981,0.176
+Western Asia,°C,Y1982,1982,-0.355
+Western Asia,°C,Y1983,1983,-0.665
+Western Asia,°C,Y1984,1984,-0.097
+Western Asia,°C,Y1985,1985,0.042
+Western Asia,°C,Y1986,1986,0.201
+Western Asia,°C,Y1987,1987,0.212
+Western Asia,°C,Y1988,1988,0.278
+Western Asia,°C,Y1989,1989,0.029
+Western Asia,°C,Y1990,1990,0.126
+Western Asia,°C,Y1991,1991,0.285
+Western Asia,°C,Y1992,1992,-1.029
+Western Asia,°C,Y1993,1993,-0.354
+Western Asia,°C,Y1994,1994,0.764
+Western Asia,°C,Y1995,1995,0.191
+Western Asia,°C,Y1996,1996,0.471
+Western Asia,°C,Y1997,1997,0.028
+Western Asia,°C,Y1998,1998,1.046
+Western Asia,°C,Y1999,1999,1.394
+Western Asia,°C,Y2000,2000,0.72
+Western Asia,°C,Y2001,2001,1.043
+Western Asia,°C,Y2002,2002,0.998
+Western Asia,°C,Y2003,2003,0.754
+Western Asia,°C,Y2004,2004,0.881
+Western Asia,°C,Y2005,2005,0.525
+Western Asia,°C,Y2006,2006,1.134
+Western Asia,°C,Y2007,2007,0.778
+Western Asia,°C,Y2008,2008,0.875
+Western Asia,°C,Y2009,2009,0.883
+Western Asia,°C,Y2010,2010,2.194
+Western Asia,°C,Y2011,2011,0.766
+Western Asia,°C,Y2012,2012,1.143
+Western Asia,°C,Y2013,2013,1.183
+Europe,°C,Y1961,1961,0.874
+Europe,°C,Y1962,1962,0.3
+Europe,°C,Y1963,1963,0.103
+Europe,°C,Y1964,1964,-0.523
+Europe,°C,Y1965,1965,-0.43
+Europe,°C,Y1966,1966,0.724
+Europe,°C,Y1967,1967,0.174
+Europe,°C,Y1968,1968,0.048
+Europe,°C,Y1969,1969,-1.01
+Europe,°C,Y1970,1970,0.189
+Europe,°C,Y1971,1971,0.264
+Europe,°C,Y1972,1972,-0.148
+Europe,°C,Y1973,1973,0.173
+Europe,°C,Y1974,1974,0.02
+Europe,°C,Y1975,1975,0.838
+Europe,°C,Y1976,1976,-0.559
+Europe,°C,Y1977,1977,0.189
+Europe,°C,Y1978,1978,-0.166
+Europe,°C,Y1979,1979,0.138
+Europe,°C,Y1980,1980,-0.068
+Europe,°C,Y1981,1981,0.662
+Europe,°C,Y1982,1982,0.111
+Europe,°C,Y1983,1983,0.934
+Europe,°C,Y1984,1984,0.271
+Europe,°C,Y1985,1985,-0.605
+Europe,°C,Y1986,1986,0.259
+Europe,°C,Y1987,1987,-0.562
+Europe,°C,Y1988,1988,0.494
+Europe,°C,Y1989,1989,1.035
+Europe,°C,Y1990,1990,1.257
+Europe,°C,Y1991,1991,0.597
+Europe,°C,Y1992,1992,0.472
+Europe,°C,Y1993,1993,0.75
+Europe,°C,Y1994,1994,0.698
+Europe,°C,Y1995,1995,1.83
+Europe,°C,Y1996,1996,0.57
+Europe,°C,Y1997,1997,1.096
+Europe,°C,Y1998,1998,0.187
+Europe,°C,Y1999,1999,0.588
+Europe,°C,Y2000,2000,1.342
+Europe,°C,Y2001,2001,0.953
+Europe,°C,Y2002,2002,1.505
+Europe,°C,Y2003,2003,0.972
+Europe,°C,Y2004,2004,1.282
+Europe,°C,Y2005,2005,1.537
+Europe,°C,Y2006,2006,0.678
+Europe,°C,Y2007,2007,2.31
+Europe,°C,Y2008,2008,2.024
+Europe,°C,Y2009,2009,1.239
+Europe,°C,Y2010,2010,0.817
+Europe,°C,Y2011,2011,1.548
+Europe,°C,Y2012,2012,1.789
+Europe,°C,Y2013,2013,1.118
+Eastern Europe,°C,Y1961,1961,0.85
+Eastern Europe,°C,Y1962,1962,0.405
+Eastern Europe,°C,Y1963,1963,0.209
+Eastern Europe,°C,Y1964,1964,-0.638
+Eastern Europe,°C,Y1965,1965,-0.429
+Eastern Europe,°C,Y1966,1966,0.894
+Eastern Europe,°C,Y1967,1967,0.123
+Eastern Europe,°C,Y1968,1968,0.109
+Eastern Europe,°C,Y1969,1969,-1.15
+Eastern Europe,°C,Y1970,1970,0.291
+Eastern Europe,°C,Y1971,1971,0.342
+Eastern Europe,°C,Y1972,1972,-0.189
+Eastern Europe,°C,Y1973,1973,0.15
+Eastern Europe,°C,Y1974,1974,-0.018
+Eastern Europe,°C,Y1975,1975,0.864
+Eastern Europe,°C,Y1976,1976,-0.645
+Eastern Europe,°C,Y1977,1977,0.234
+Eastern Europe,°C,Y1978,1978,-0.157
+Eastern Europe,°C,Y1979,1979,0.238
+Eastern Europe,°C,Y1980,1980,-0.041
+Eastern Europe,°C,Y1981,1981,0.784
+Eastern Europe,°C,Y1982,1982,0.082
+Eastern Europe,°C,Y1983,1983,0.99
+Eastern Europe,°C,Y1984,1984,0.301
+Eastern Europe,°C,Y1985,1985,-0.638
+Eastern Europe,°C,Y1986,1986,0.315
+Eastern Europe,°C,Y1987,1987,-0.602
+Eastern Europe,°C,Y1988,1988,0.469
+Eastern Europe,°C,Y1989,1989,1
+Eastern Europe,°C,Y1990,1990,1.244
+Eastern Europe,°C,Y1991,1991,0.627
+Eastern Europe,°C,Y1992,1992,0.397
+Eastern Europe,°C,Y1993,1993,0.838
+Eastern Europe,°C,Y1994,1994,0.651
+Eastern Europe,°C,Y1995,1995,1.995
+Eastern Europe,°C,Y1996,1996,0.693
+Eastern Europe,°C,Y1997,1997,1.148
+Eastern Europe,°C,Y1998,1998,0.049
+Eastern Europe,°C,Y1999,1999,0.475
+Eastern Europe,°C,Y2000,2000,1.346
+Eastern Europe,°C,Y2001,2001,0.89
+Eastern Europe,°C,Y2002,2002,1.584
+Eastern Europe,°C,Y2003,2003,0.915
+Eastern Europe,°C,Y2004,2004,1.346
+Eastern Europe,°C,Y2005,2005,1.626
+Eastern Europe,°C,Y2006,2006,0.556
+Eastern Europe,°C,Y2007,2007,2.471
+Eastern Europe,°C,Y2008,2008,2.173
+Eastern Europe,°C,Y2009,2009,1.224
+Eastern Europe,°C,Y2010,2010,0.91
+Eastern Europe,°C,Y2011,2011,1.613
+Eastern Europe,°C,Y2012,2012,1.913
+Eastern Europe,°C,Y2013,2013,1.174
+Northern Europe,°C,Y1961,1961,1.271
+Northern Europe,°C,Y1962,1962,-0.616
+Northern Europe,°C,Y1963,1963,-0.438
+Northern Europe,°C,Y1964,1964,0.329
+Northern Europe,°C,Y1965,1965,-0.314
+Northern Europe,°C,Y1966,1966,-1.285
+Northern Europe,°C,Y1967,1967,0.599
+Northern Europe,°C,Y1968,1968,-0.854
+Northern Europe,°C,Y1969,1969,-0.302
+Northern Europe,°C,Y1970,1970,-0.68
+Northern Europe,°C,Y1971,1971,-0.046
+Northern Europe,°C,Y1972,1972,0.668
+Northern Europe,°C,Y1973,1973,0.823
+Northern Europe,°C,Y1974,1974,0.745
+Northern Europe,°C,Y1975,1975,1.2
+Northern Europe,°C,Y1976,1976,-0.059
+Northern Europe,°C,Y1977,1977,-0.385
+Northern Europe,°C,Y1978,1978,-0.13
+Northern Europe,°C,Y1979,1979,-0.972
+Northern Europe,°C,Y1980,1980,-0.308
+Northern Europe,°C,Y1981,1981,-0.244
+Northern Europe,°C,Y1982,1982,-0.081
+Northern Europe,°C,Y1983,1983,0.636
+Northern Europe,°C,Y1984,1984,0.524
+Northern Europe,°C,Y1985,1985,-0.787
+Northern Europe,°C,Y1986,1986,-0.418
+Northern Europe,°C,Y1987,1987,-0.906
+Northern Europe,°C,Y1988,1988,0.501
+Northern Europe,°C,Y1989,1989,1.657
+Northern Europe,°C,Y1990,1990,1.323
+Northern Europe,°C,Y1991,1991,0.846
+Northern Europe,°C,Y1992,1992,1.077
+Northern Europe,°C,Y1993,1993,0.575
+Northern Europe,°C,Y1994,1994,0.237
+Northern Europe,°C,Y1995,1995,1.194
+Northern Europe,°C,Y1996,1996,-0.077
+Northern Europe,°C,Y1997,1997,0.817
+Northern Europe,°C,Y1998,1998,0.482
+Northern Europe,°C,Y1999,1999,1.222
+Northern Europe,°C,Y2000,2000,1.482
+Northern Europe,°C,Y2001,2001,0.995
+Northern Europe,°C,Y2002,2002,1.327
+Northern Europe,°C,Y2003,2003,0.943
+Northern Europe,°C,Y2004,2004,1.177
+Northern Europe,°C,Y2005,2005,1.629
+Northern Europe,°C,Y2006,2006,1.328
+Northern Europe,°C,Y2007,2007,1.767
+Northern Europe,°C,Y2008,2008,1.698
+Northern Europe,°C,Y2009,2009,1.36
+Northern Europe,°C,Y2010,2010,0.02
+Northern Europe,°C,Y2011,2011,1.187
+Northern Europe,°C,Y2012,2012,1.15
+Northern Europe,°C,Y2013,2013,0.866
+Southern Europe,°C,Y1961,1961,0.768
+Southern Europe,°C,Y1962,1962,0.262
+Southern Europe,°C,Y1963,1963,-0.188
+Southern Europe,°C,Y1964,1964,0.127
+Southern Europe,°C,Y1965,1965,-0.332
+Southern Europe,°C,Y1966,1966,0.468
+Southern Europe,°C,Y1967,1967,0.149
+Southern Europe,°C,Y1968,1968,0.09
+Southern Europe,°C,Y1969,1969,-0.221
+Southern Europe,°C,Y1970,1970,-0.026
+Southern Europe,°C,Y1971,1971,-0.451
+Southern Europe,°C,Y1972,1972,-0.422
+Southern Europe,°C,Y1973,1973,-0.166
+Southern Europe,°C,Y1974,1974,-0.258
+Southern Europe,°C,Y1975,1975,-0.006
+Southern Europe,°C,Y1976,1976,-0.467
+Southern Europe,°C,Y1977,1977,0.148
+Southern Europe,°C,Y1978,1978,-0.314
+Southern Europe,°C,Y1979,1979,0.164
+Southern Europe,°C,Y1980,1980,-0.136
+Southern Europe,°C,Y1981,1981,0.039
+Southern Europe,°C,Y1982,1982,0.446
+Southern Europe,°C,Y1983,1983,0.358
+Southern Europe,°C,Y1984,1984,-0.248
+Southern Europe,°C,Y1985,1985,0.145
+Southern Europe,°C,Y1986,1986,0.331
+Southern Europe,°C,Y1987,1987,0.297
+Southern Europe,°C,Y1988,1988,0.66
+Southern Europe,°C,Y1989,1989,0.631
+Southern Europe,°C,Y1990,1990,1.164
+Southern Europe,°C,Y1991,1991,0.07
+Southern Europe,°C,Y1992,1992,0.331
+Southern Europe,°C,Y1993,1993,0.089
+Southern Europe,°C,Y1994,1994,1.258
+Southern Europe,°C,Y1995,1995,0.813
+Southern Europe,°C,Y1996,1996,0.351
+Southern Europe,°C,Y1997,1997,0.905
+Southern Europe,°C,Y1998,1998,1.039
+Southern Europe,°C,Y1999,1999,0.779
+Southern Europe,°C,Y2000,2000,1.016
+Southern Europe,°C,Y2001,2001,1.438
+Southern Europe,°C,Y2002,2002,0.829
+Southern Europe,°C,Y2003,2003,1.313
+Southern Europe,°C,Y2004,2004,0.777
+Southern Europe,°C,Y2005,2005,0.593
+Southern Europe,°C,Y2006,2006,1.04
+Southern Europe,°C,Y2007,2007,1.232
+Southern Europe,°C,Y2008,2008,1.011
+Southern Europe,°C,Y2009,2009,1.266
+Southern Europe,°C,Y2010,2010,0.986
+Southern Europe,°C,Y2011,2011,1.266
+Southern Europe,°C,Y2012,2012,1.314
+Southern Europe,°C,Y2013,2013,1.077
+Western Europe,°C,Y1961,1961,0.908
+Western Europe,°C,Y1962,1962,-0.509
+Western Europe,°C,Y1963,1963,-0.991
+Western Europe,°C,Y1964,1964,-0.133
+Western Europe,°C,Y1965,1965,-0.72
+Western Europe,°C,Y1966,1966,0.427
+Western Europe,°C,Y1967,1967,0.645
+Western Europe,°C,Y1968,1968,0.046
+Western Europe,°C,Y1969,1969,-0.04
+Western Europe,°C,Y1970,1970,-0.415
+Western Europe,°C,Y1971,1971,-0.079
+Western Europe,°C,Y1972,1972,-0.175
+Western Europe,°C,Y1973,1973,0.097
+Western Europe,°C,Y1974,1974,0.098
+Western Europe,°C,Y1975,1975,0.744
+Western Europe,°C,Y1976,1976,0.406
+Western Europe,°C,Y1977,1977,0.149
+Western Europe,°C,Y1978,1978,-0.229
+Western Europe,°C,Y1979,1979,-0.369
+Western Europe,°C,Y1980,1980,-0.202
+Western Europe,°C,Y1981,1981,0.177
+Western Europe,°C,Y1982,1982,0.623
+Western Europe,°C,Y1983,1983,0.867
+Western Europe,°C,Y1984,1984,-0.113
+Western Europe,°C,Y1985,1985,-0.545
+Western Europe,°C,Y1986,1986,0.011
+Western Europe,°C,Y1987,1987,-0.238
+Western Europe,°C,Y1988,1988,0.814
+Western Europe,°C,Y1989,1989,1.333
+Western Europe,°C,Y1990,1990,1.536
+Western Europe,°C,Y1991,1991,0.244
+Western Europe,°C,Y1992,1992,0.911
+Western Europe,°C,Y1993,1993,0.328
+Western Europe,°C,Y1994,1994,1.595
+Western Europe,°C,Y1995,1995,1.275
+Western Europe,°C,Y1996,1996,-0.206
+Western Europe,°C,Y1997,1997,0.904
+Western Europe,°C,Y1998,1998,1.045
+Western Europe,°C,Y1999,1999,1.245
+Western Europe,°C,Y2000,2000,1.443
+Western Europe,°C,Y2001,2001,1.365
+Western Europe,°C,Y2002,2002,1.267
+Western Europe,°C,Y2003,2003,1.573
+Western Europe,°C,Y2004,2004,0.984
+Western Europe,°C,Y2005,2005,1
+Western Europe,°C,Y2006,2006,1.264
+Western Europe,°C,Y2007,2007,1.735
+Western Europe,°C,Y2008,2008,1.241
+Western Europe,°C,Y2009,2009,1.257
+Western Europe,°C,Y2010,2010,0.328
+Western Europe,°C,Y2011,2011,1.358
+Western Europe,°C,Y2012,2012,1.3
+Western Europe,°C,Y2013,2013,0.675
+Oceania,°C,Y1961,1961,0.116
+Oceania,°C,Y1962,1962,0.14
+Oceania,°C,Y1963,1963,-0.118
+Oceania,°C,Y1964,1964,-0.03
+Oceania,°C,Y1965,1965,0.067
+Oceania,°C,Y1966,1966,-0.231
+Oceania,°C,Y1967,1967,-0.104
+Oceania,°C,Y1968,1968,-0.195
+Oceania,°C,Y1969,1969,0.096
+Oceania,°C,Y1970,1970,0.032
+Oceania,°C,Y1971,1971,-0.016
+Oceania,°C,Y1972,1972,0.072
+Oceania,°C,Y1973,1973,0.795
+Oceania,°C,Y1974,1974,-0.297
+Oceania,°C,Y1975,1975,0.077
+Oceania,°C,Y1976,1976,-0.484
+Oceania,°C,Y1977,1977,0.156
+Oceania,°C,Y1978,1978,0.095
+Oceania,°C,Y1979,1979,0.351
+Oceania,°C,Y1980,1980,0.792
+Oceania,°C,Y1981,1981,0.444
+Oceania,°C,Y1982,1982,0.135
+Oceania,°C,Y1983,1983,0.559
+Oceania,°C,Y1984,1984,-0.151
+Oceania,°C,Y1985,1985,0.292
+Oceania,°C,Y1986,1986,0.327
+Oceania,°C,Y1987,1987,0.306
+Oceania,°C,Y1988,1988,0.875
+Oceania,°C,Y1989,1989,0.143
+Oceania,°C,Y1990,1990,0.488
+Oceania,°C,Y1991,1991,0.716
+Oceania,°C,Y1992,1992,0.202
+Oceania,°C,Y1993,1993,0.378
+Oceania,°C,Y1994,1994,0.163
+Oceania,°C,Y1995,1995,0.367
+Oceania,°C,Y1996,1996,0.518
+Oceania,°C,Y1997,1997,0.289
+Oceania,°C,Y1998,1998,1.038
+Oceania,°C,Y1999,1999,0.547
+Oceania,°C,Y2000,2000,0.143
+Oceania,°C,Y2001,2001,0.342
+Oceania,°C,Y2002,2002,0.703
+Oceania,°C,Y2003,2003,0.771
+Oceania,°C,Y2004,2004,0.632
+Oceania,°C,Y2005,2005,1.091
+Oceania,°C,Y2006,2006,0.614
+Oceania,°C,Y2007,2007,0.824
+Oceania,°C,Y2008,2008,0.543
+Oceania,°C,Y2009,2009,0.9
+Oceania,°C,Y2010,2010,0.666
+Oceania,°C,Y2011,2011,0.212
+Oceania,°C,Y2012,2012,0.276
+Oceania,°C,Y2013,2013,1.396
+Australia and New Zealand,°C,Y1961,1961,0.136
+Australia and New Zealand,°C,Y1962,1962,0.139
+Australia and New Zealand,°C,Y1963,1963,-0.122
+Australia and New Zealand,°C,Y1964,1964,-0.036
+Australia and New Zealand,°C,Y1965,1965,0.108
+Australia and New Zealand,°C,Y1966,1966,-0.237
+Australia and New Zealand,°C,Y1967,1967,-0.095
+Australia and New Zealand,°C,Y1968,1968,-0.202
+Australia and New Zealand,°C,Y1969,1969,0.096
+Australia and New Zealand,°C,Y1970,1970,0.022
+Australia and New Zealand,°C,Y1971,1971,-0.016
+Australia and New Zealand,°C,Y1972,1972,0.099
+Australia and New Zealand,°C,Y1973,1973,0.835
+Australia and New Zealand,°C,Y1974,1974,-0.322
+Australia and New Zealand,°C,Y1975,1975,0.078
+Australia and New Zealand,°C,Y1976,1976,-0.501
+Australia and New Zealand,°C,Y1977,1977,0.17
+Australia and New Zealand,°C,Y1978,1978,0.088
+Australia and New Zealand,°C,Y1979,1979,0.366
+Australia and New Zealand,°C,Y1980,1980,0.833
+Australia and New Zealand,°C,Y1981,1981,0.455
+Australia and New Zealand,°C,Y1982,1982,0.15
+Australia and New Zealand,°C,Y1983,1983,0.574
+Australia and New Zealand,°C,Y1984,1984,-0.18
+Australia and New Zealand,°C,Y1985,1985,0.297
+Australia and New Zealand,°C,Y1986,1986,0.329
+Australia and New Zealand,°C,Y1987,1987,0.306
+Australia and New Zealand,°C,Y1988,1988,0.893
+Australia and New Zealand,°C,Y1989,1989,0.131
+Australia and New Zealand,°C,Y1990,1990,0.499
+Australia and New Zealand,°C,Y1991,1991,0.752
+Australia and New Zealand,°C,Y1992,1992,0.184
+Australia and New Zealand,°C,Y1993,1993,0.389
+Australia and New Zealand,°C,Y1994,1994,0.158
+Australia and New Zealand,°C,Y1995,1995,0.34
+Australia and New Zealand,°C,Y1996,1996,0.514
+Australia and New Zealand,°C,Y1997,1997,0.303
+Australia and New Zealand,°C,Y1998,1998,1.021
+Australia and New Zealand,°C,Y1999,1999,0.559
+Australia and New Zealand,°C,Y2000,2000,0.128
+Australia and New Zealand,°C,Y2001,2001,0.329
+Australia and New Zealand,°C,Y2002,2002,0.697
+Australia and New Zealand,°C,Y2003,2003,0.772
+Australia and New Zealand,°C,Y2004,2004,0.65
+Australia and New Zealand,°C,Y2005,2005,1.121
+Australia and New Zealand,°C,Y2006,2006,0.635
+Australia and New Zealand,°C,Y2007,2007,0.844
+Australia and New Zealand,°C,Y2008,2008,0.553
+Australia and New Zealand,°C,Y2009,2009,0.938
+Australia and New Zealand,°C,Y2010,2010,0.642
+Australia and New Zealand,°C,Y2011,2011,0.192
+Australia and New Zealand,°C,Y2012,2012,0.268
+Australia and New Zealand,°C,Y2013,2013,1.435
+Melanesia,°C,Y1961,1961,-0.184
+Melanesia,°C,Y1962,1962,0.153
+Melanesia,°C,Y1963,1963,-0.073
+Melanesia,°C,Y1964,1964,0.066
+Melanesia,°C,Y1965,1965,-0.538
+Melanesia,°C,Y1966,1966,-0.137
+Melanesia,°C,Y1967,1967,-0.236
+Melanesia,°C,Y1968,1968,-0.094
+Melanesia,°C,Y1969,1969,0.102
+Melanesia,°C,Y1970,1970,0.185
+Melanesia,°C,Y1971,1971,-0.017
+Melanesia,°C,Y1972,1972,-0.335
+Melanesia,°C,Y1973,1973,0.215
+Melanesia,°C,Y1974,1974,0.068
+Melanesia,°C,Y1975,1975,0.067
+Melanesia,°C,Y1976,1976,-0.238
+Melanesia,°C,Y1977,1977,-0.064
+Melanesia,°C,Y1978,1978,0.193
+Melanesia,°C,Y1979,1979,0.129
+Melanesia,°C,Y1980,1980,0.205
+Melanesia,°C,Y1981,1981,0.298
+Melanesia,°C,Y1982,1982,-0.083
+Melanesia,°C,Y1983,1983,0.341
+Melanesia,°C,Y1984,1984,0.262
+Melanesia,°C,Y1985,1985,0.218
+Melanesia,°C,Y1986,1986,0.299
+Melanesia,°C,Y1987,1987,0.308
+Melanesia,°C,Y1988,1988,0.625
+Melanesia,°C,Y1989,1989,0.319
+Melanesia,°C,Y1990,1990,0.327
+Melanesia,°C,Y1991,1991,0.196
+Melanesia,°C,Y1992,1992,0.461
+Melanesia,°C,Y1993,1993,0.228
+Melanesia,°C,Y1994,1994,0.234
+Melanesia,°C,Y1995,1995,0.761
+Melanesia,°C,Y1996,1996,0.582
+Melanesia,°C,Y1997,1997,0.091
+Melanesia,°C,Y1998,1998,1.286
+Melanesia,°C,Y1999,1999,0.379
+Melanesia,°C,Y2000,2000,0.369
+Melanesia,°C,Y2001,2001,0.535
+Melanesia,°C,Y2002,2002,0.785
+Melanesia,°C,Y2003,2003,0.751
+Melanesia,°C,Y2004,2004,0.358
+Melanesia,°C,Y2005,2005,0.66
+Melanesia,°C,Y2006,2006,0.312
+Melanesia,°C,Y2007,2007,0.535
+Melanesia,°C,Y2008,2008,0.376
+Melanesia,°C,Y2009,2009,0.35
+Melanesia,°C,Y2010,2010,1.016
+Melanesia,°C,Y2011,2011,0.498
+Melanesia,°C,Y2012,2012,0.386
+Melanesia,°C,Y2013,2013,0.83
+Micronesia,°C,Y1961,1961,0.002
+Micronesia,°C,Y1962,1962,-0.031
+Micronesia,°C,Y1963,1963,0.058
+Micronesia,°C,Y1964,1964,-0.11
+Micronesia,°C,Y1965,1965,-0.253
+Micronesia,°C,Y1966,1966,0.044
+Micronesia,°C,Y1967,1967,-0.061
+Micronesia,°C,Y1968,1968,-0.024
+Micronesia,°C,Y1969,1969,0.076
+Micronesia,°C,Y1970,1970,0.108
+Micronesia,°C,Y1971,1971,-0.294
+Micronesia,°C,Y1972,1972,-0.186
+Micronesia,°C,Y1973,1973,0.056
+Micronesia,°C,Y1974,1974,-0.125
+Micronesia,°C,Y1975,1975,-0.275
+Micronesia,°C,Y1976,1976,-0.289
+Micronesia,°C,Y1977,1977,0.059
+Micronesia,°C,Y1978,1978,0.121
+Micronesia,°C,Y1979,1979,0.151
+Micronesia,°C,Y1980,1980,0.2
+Micronesia,°C,Y1981,1981,0.196
+Micronesia,°C,Y1982,1982,0.136
+Micronesia,°C,Y1983,1983,0.176
+Micronesia,°C,Y1984,1984,0.05
+Micronesia,°C,Y1985,1985,0.013
+Micronesia,°C,Y1986,1986,0.253
+Micronesia,°C,Y1987,1987,0.172
+Micronesia,°C,Y1988,1988,0.234
+Micronesia,°C,Y1989,1989,0.025
+Micronesia,°C,Y1990,1990,0.301
+Micronesia,°C,Y1991,1991,0.14
+Micronesia,°C,Y1992,1992,0.152
+Micronesia,°C,Y1993,1993,-0.068
+Micronesia,°C,Y1994,1994,0.186
+Micronesia,°C,Y1995,1995,0.373
+Micronesia,°C,Y1996,1996,0.345
+Micronesia,°C,Y1997,1997,0.151
+Micronesia,°C,Y1998,1998,0.499
+Micronesia,°C,Y1999,1999,0.061
+Micronesia,°C,Y2000,2000,0.196
+Micronesia,°C,Y2001,2001,0.359
+Micronesia,°C,Y2002,2002,0.369
+Micronesia,°C,Y2003,2003,0.393
+Micronesia,°C,Y2004,2004,0.402
+Micronesia,°C,Y2005,2005,0.294
+Micronesia,°C,Y2006,2006,0.493
+Micronesia,°C,Y2007,2007,0.504
+Micronesia,°C,Y2008,2008,0.222
+Micronesia,°C,Y2009,2009,0.58
+Micronesia,°C,Y2010,2010,0.513
+Micronesia,°C,Y2011,2011,0.429
+Micronesia,°C,Y2012,2012,0.619
+Micronesia,°C,Y2013,2013,0.727
+Polynesia,°C,Y1961,1961,0.083
+Polynesia,°C,Y1962,1962,-0.143
+Polynesia,°C,Y1963,1963,-0.07
+Polynesia,°C,Y1964,1964,-0.076
+Polynesia,°C,Y1965,1965,-0.303
+Polynesia,°C,Y1966,1966,-0.017
+Polynesia,°C,Y1967,1967,-0.337
+Polynesia,°C,Y1968,1968,-0.385
+Polynesia,°C,Y1969,1969,0.162
+Polynesia,°C,Y1970,1970,0.218
+Polynesia,°C,Y1971,1971,-0.238
+Polynesia,°C,Y1972,1972,0.092
+Polynesia,°C,Y1973,1973,0.369
+Polynesia,°C,Y1974,1974,-0.208
+Polynesia,°C,Y1975,1975,-0.102
+Polynesia,°C,Y1976,1976,-0.161
+Polynesia,°C,Y1977,1977,0.216
+Polynesia,°C,Y1978,1978,0.066
+Polynesia,°C,Y1979,1979,0.213
+Polynesia,°C,Y1980,1980,0.281
+Polynesia,°C,Y1981,1981,0.121
+Polynesia,°C,Y1982,1982,0.267
+Polynesia,°C,Y1983,1983,0.253
+Polynesia,°C,Y1984,1984,0.329
+Polynesia,°C,Y1985,1985,0.173
+Polynesia,°C,Y1986,1986,0.25
+Polynesia,°C,Y1987,1987,0.289
+Polynesia,°C,Y1988,1988,0.467
+Polynesia,°C,Y1989,1989,0.178
+Polynesia,°C,Y1990,1990,0.437
+Polynesia,°C,Y1991,1991,0.503
+Polynesia,°C,Y1992,1992,0.467
+Polynesia,°C,Y1993,1993,0.185
+Polynesia,°C,Y1994,1994,0.369
+Polynesia,°C,Y1995,1995,0.663
+Polynesia,°C,Y1996,1996,0.459
+Polynesia,°C,Y1997,1997,0.349
+Polynesia,°C,Y1998,1998,0.615
+Polynesia,°C,Y1999,1999,0.414
+Polynesia,°C,Y2000,2000,0.51
+Polynesia,°C,Y2001,2001,0.732
+Polynesia,°C,Y2002,2002,0.99
+Polynesia,°C,Y2003,2003,0.749
+Polynesia,°C,Y2004,2004,0.482
+Polynesia,°C,Y2005,2005,0.782
+Polynesia,°C,Y2006,2006,0.707
+Polynesia,°C,Y2007,2007,0.994
+Polynesia,°C,Y2008,2008,0.506
+Polynesia,°C,Y2009,2009,0.766
+Polynesia,°C,Y2010,2010,0.946
+Polynesia,°C,Y2011,2011,0.505
+Polynesia,°C,Y2012,2012,0.807
+Polynesia,°C,Y2013,2013,0.832
+European Union,°C,Y1961,1961,1.039
+European Union,°C,Y1962,1962,-0.241
+European Union,°C,Y1963,1963,-0.576
+European Union,°C,Y1964,1964,-0.032
+European Union,°C,Y1965,1965,-0.518
+European Union,°C,Y1966,1966,0.022
+European Union,°C,Y1967,1967,0.53
+European Union,°C,Y1968,1968,-0.129
+European Union,°C,Y1969,1969,-0.244
+European Union,°C,Y1970,1970,-0.399
+European Union,°C,Y1971,1971,-0.166
+European Union,°C,Y1972,1972,0.041
+European Union,°C,Y1973,1973,0.249
+European Union,°C,Y1974,1974,0.172
+European Union,°C,Y1975,1975,0.77
+European Union,°C,Y1976,1976,-0.137
+European Union,°C,Y1977,1977,0.038
+European Union,°C,Y1978,1978,-0.255
+European Union,°C,Y1979,1979,-0.361
+European Union,°C,Y1980,1980,-0.3
+European Union,°C,Y1981,1981,0.087
+European Union,°C,Y1982,1982,0.297
+European Union,°C,Y1983,1983,0.735
+European Union,°C,Y1984,1984,0.075
+European Union,°C,Y1985,1985,-0.528
+European Union,°C,Y1986,1986,-0.001
+European Union,°C,Y1987,1987,-0.416
+European Union,°C,Y1988,1988,0.632
+European Union,°C,Y1989,1989,1.262
+European Union,°C,Y1990,1990,1.36
+European Union,°C,Y1991,1991,0.36
+European Union,°C,Y1992,1992,0.79
+European Union,°C,Y1993,1993,0.254
+European Union,°C,Y1994,1994,1.104
+European Union,°C,Y1995,1995,1.116
+European Union,°C,Y1996,1996,-0.092
+European Union,°C,Y1997,1997,0.719
+European Union,°C,Y1998,1998,0.87
+European Union,°C,Y1999,1999,1.074
+European Union,°C,Y2000,2000,1.399
+European Union,°C,Y2001,2001,1.315
+European Union,°C,Y2002,2002,1.203
+European Union,°C,Y2003,2003,1.061
+European Union,°C,Y2004,2004,0.92
+European Union,°C,Y2005,2005,1.03
+European Union,°C,Y2006,2006,1.126
+European Union,°C,Y2007,2007,1.683
+European Union,°C,Y2008,2008,1.388
+European Union,°C,Y2009,2009,1.326
+European Union,°C,Y2010,2010,0.488
+European Union,°C,Y2011,2011,1.143
+European Union,°C,Y2012,2012,1.315
+European Union,°C,Y2013,2013,0.901
