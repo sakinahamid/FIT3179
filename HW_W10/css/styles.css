@@ -8,6 +8,7 @@
 }
 
 #temp_change_line_chart {
+	margin-top: 130px;
 	top:100px;
 	left: 100px;
     width: 100vw;
@@ -27,5 +28,5 @@
 }
 
 #text_div{
-    margin-top: 130px;
+    margin-top: 250px;
 }
