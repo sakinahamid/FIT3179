@@ -20,7 +20,7 @@
           "fields": ["Temperature"]
         }
       },
-      {"calculate": "datum.Temperature + 0.00000000001", "as": "Temp Change (Base: 1951 - 1980)"}
+      {"calculate": "datum.Temperature + 0.0000000001", "as": "Temp Change (Base: 1951 - 1980)"}
     ],
     "projection": {
       "type": "equirectangular"
@@ -30,10 +30,9 @@
       },
     "encoding": {
       "color": {
-        "aggregate" : "average",
         "field": "Temp Change (Base: 1951 - 1980)",
         "type": "quantitative",
-        "scale": { "type": "linear"}
+        "scale": { "type": "log"}
       },
       "tooltip": [
         {"field": "properties.NAME", "type": "nominal", "title": "Country"},
