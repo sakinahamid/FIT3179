@@ -1,0 +1,31 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "World Cup 2018: Group F Rankings",
+      "frame": "bounds"
+    },
+    "data": {"url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Co2_Emissions_Regions_Rank_2.csv"},
+    "transform": [{
+      "sort": [
+        {"field": "point", "order": "descending"},
+        {"field": "diff", "order": "descending"}
+      ],
+      "window": [{
+        "op": "rank",
+        "as": "rank"
+      }],
+      "groupby": ["matchday"]
+    }],
+    "mark": {"type": "line", "orient": "vertical"},
+    "encoding": {
+      "x": {"field": "matchday", "type": "ordinal"},
+      "y": {"field": "rank", "type": "ordinal"},
+      "color": {
+        "field": "team", "type": "nominal",
+        "scale": {
+          "domain": ["Germany", "Mexico", "South Korea", "Sweden"],
+          "range": ["black", "#127153", "#C91A3C", "#0C71AB"]
+        }
+      }
+    }
+  }
