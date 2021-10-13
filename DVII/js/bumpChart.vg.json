@@ -1,16 +1,34 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-      "text": "Ranking of Regional Co2 Per Capita Over",
+      "text": "Ranking of Regional Co2 Per Capita Over Time",
       "frame": "bounds"
     },
     "data": {"url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Co2_Emissions_Regions_Rank_2.csv"},
-    "mark": {"type": "line", "orient": "vertical", "point" : true},
+    "params": [{
+    "name": "region",
+    "select": {"type": "point", "fields": ["Country"], "on" : "mouseover"}
+  }],
+    "mark": {
+      "type": "line", 
+      "orient": "vertical", 
+      "point" : true,
+      "cursor" : "pointer"
+    },
     "encoding": {
       "x": {"field": "Year", "type": "ordinal"},
       "y": {"field": "Class", "type": "ordinal", "title": "Rank"},
       "color": {
         "field": "Country", "type": "nominal", "title" : "Region"
-        }
-      }
+        },
+      "tooltip" : [
+        {"field" : "Country", "type" : "nominal", "title" : "Region"},
+        {"field" : "Year", "type" : "ordinal"},
+        {"field" : "Co2 Emissions per Capita", "type" : "quantitative", "format" : ".2f", "title" : "Co2 Emissions Per Capita"}
+      ],
+      "opacity": {
+      "condition": {"param": "region", "value": 1},
+      "value": 0.2
+    }
+  }
 }
