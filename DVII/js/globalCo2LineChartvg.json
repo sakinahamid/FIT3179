@@ -1,0 +1,27 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 300,
+    "description": "Google's stock price over time.",
+    "title" : "Average of Global Co2 Emissions Per Capita Over Time",
+    "data": {"url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Co2_Emissions_Global.csv"},
+    "mark": {
+        "type" : "line",
+        "color" : "darkgreen"
+    },
+    "encoding": {
+        "x": {
+          "timeUnit": "year", "field": "Year",
+          "axis": {"format": "%Y"}
+        },
+        "y": {
+          "aggregate" : "average",
+          "field": "Co2 Emissions per Capita",
+          "title": "Co2 Emissions per Capita"
+        },
+        "tooltip" : [
+            {"field": "Year", "type" : "temporal", "format": "%Y"},
+            {"aggregate": "average", "field": "Co2 Emissions per Capita", "type" : "quantitative", "format": ".2f", "title": "Co2 Emissions per Capita"}
+        ]
+      }
+  }
