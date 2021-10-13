@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Global Temperature Change",
-    "width": "800",
+    "title": "Global Temperature Change (1961 - 2013)",
+    "width": 800,
     "height": 600,
     "params": [
       {
