@@ -1,0 +1,478 @@
+Country,Year,Co2 Emissions per Capita,Rank
+Africa Eastern and Southern,1961,0.922473917,50
+Africa Eastern and Southern,1962,0.930815894,48
+Africa Eastern and Southern,1963,0.940569529,46
+Africa Eastern and Southern,1964,0.996033447,38
+Africa Eastern and Southern,1965,1.047279743,27
+Africa Eastern and Southern,1966,1.033908319,29
+Africa Eastern and Southern,1967,1.052204052,25
+Africa Eastern and Southern,1968,1.079726652,23
+Africa Eastern and Southern,1969,1.104631605,21
+Africa Eastern and Southern,1970,1.123261243,20
+Africa Eastern and Southern,1971,1.219593048,11
+Africa Eastern and Southern,1972,1.209262779,13
+Africa Eastern and Southern,1973,1.204522542,14
+Africa Eastern and Southern,1974,1.186045209,16
+Africa Eastern and Southern,1975,1.181139367,18
+Africa Eastern and Southern,1976,1.190203366,15
+Africa Eastern and Southern,1977,1.182217743,17
+Africa Eastern and Southern,1978,1.169157603,19
+Africa Eastern and Southern,1979,1.216900549,12
+Africa Eastern and Southern,1980,1.235910896,10
+Africa Eastern and Southern,1981,1.319763789,9
+Africa Eastern and Southern,1982,1.367396551,7
+Africa Eastern and Southern,1983,1.386366901,6
+Africa Eastern and Southern,1984,1.431963637,1
+Africa Eastern and Southern,1985,1.423144569,2
+Africa Eastern and Southern,1986,1.4207769,3
+Africa Eastern and Southern,1987,1.390141636,5
+Africa Eastern and Southern,1988,1.407205363,4
+Africa Eastern and Southern,1989,1.357143612,8
+Africa Eastern and Southern,1990,1.017504843,35
+Africa Eastern and Southern,1991,0.971323798,42
+Africa Eastern and Southern,1992,0.931920141,47
+Africa Eastern and Southern,1993,0.925464632,49
+Africa Eastern and Southern,1994,0.918611814,51
+Africa Eastern and Southern,1995,0.946474948,45
+Africa Eastern and Southern,1996,0.951132322,44
+Africa Eastern and Southern,1997,0.971562628,41
+Africa Eastern and Southern,1998,0.969680078,43
+Africa Eastern and Southern,1999,0.908374394,52
+Africa Eastern and Southern,2000,0.90039915,53
+Africa Eastern and Southern,2001,0.971980787,40
+Africa Eastern and Southern,2002,0.975749135,39
+Africa Eastern and Southern,2003,1.009962896,36
+Africa Eastern and Southern,2004,1.057181535,24
+Africa Eastern and Southern,2005,1.032998428,30
+Africa Eastern and Southern,2006,1.023645551,32
+Africa Eastern and Southern,2007,1.045967785,28
+Africa Eastern and Southern,2008,1.086448849,22
+Africa Eastern and Southern,2009,1.021953566,33
+Africa Eastern and Southern,2010,1.048875556,26
+Africa Eastern and Southern,2011,1.00533811,37
+Africa Eastern and Southern,2012,1.021646329,34
+Africa Eastern and Southern,2013,1.031833091,31
+Africa Western and Central,1961,0.095282835,53
+Africa Western and Central,1962,0.096612374,52
+Africa Western and Central,1963,0.112376069,51
+Africa Western and Central,1964,0.133258462,50
+Africa Western and Central,1965,0.184802797,48
+Africa Western and Central,1966,0.193675909,46
+Africa Western and Central,1967,0.189305086,47
+Africa Western and Central,1968,0.143988572,49
+Africa Western and Central,1969,0.20212888,45
+Africa Western and Central,1970,0.30264348,44
+Africa Western and Central,1971,0.392109391,43
+Africa Western and Central,1972,0.45999287,37
+Africa Western and Central,1973,0.538522176,11
+Africa Western and Central,1974,0.63596558,2
+Africa Western and Central,1975,0.514018318,16
+Africa Western and Central,1976,0.550024411,8
+Africa Western and Central,1977,0.516336767,15
+Africa Western and Central,1978,0.508535708,18
+Africa Western and Central,1979,0.648273152,1
+Africa Western and Central,1980,0.634540785,3
+Africa Western and Central,1981,0.60471417,4
+Africa Western and Central,1982,0.599648543,5
+Africa Western and Central,1983,0.539567272,10
+Africa Western and Central,1984,0.581373176,7
+Africa Western and Central,1985,0.583495478,6
+Africa Western and Central,1986,0.543987567,9
+Africa Western and Central,1987,0.474906023,29
+Africa Western and Central,1988,0.53496193,12
+Africa Western and Central,1989,0.414090443,42
+Africa Western and Central,1990,0.440470203,40
+Africa Western and Central,1991,0.474867701,31
+Africa Western and Central,1992,0.516676903,14
+Africa Western and Central,1993,0.518951549,13
+Africa Western and Central,1994,0.49285848,22
+Africa Western and Central,1995,0.48749479,26
+Africa Western and Central,1996,0.507633495,19
+Africa Western and Central,1997,0.488415589,24
+Africa Western and Central,1998,0.46162232,36
+Africa Western and Central,1999,0.453548996,38
+Africa Western and Central,2000,0.44724362,39
+Africa Western and Central,2001,0.474139685,34
+Africa Western and Central,2002,0.474875186,30
+Africa Western and Central,2003,0.474592265,32
+Africa Western and Central,2004,0.474318246,33
+Africa Western and Central,2005,0.509458302,17
+Africa Western and Central,2006,0.48795251,25
+Africa Western and Central,2007,0.475147838,27
+Africa Western and Central,2008,0.475024545,28
+Africa Western and Central,2009,0.426769596,41
+Africa Western and Central,2010,0.472819125,35
+Africa Western and Central,2011,0.497022584,21
+Africa Western and Central,2012,0.490866787,23
+Africa Western and Central,2013,0.504655299,20
+East Asia & Pacific,1961,1.022153677,50
+East Asia & Pacific,1962,0.925117471,53
+East Asia & Pacific,1963,0.945461548,52
+East Asia & Pacific,1964,0.97457012,51
+East Asia & Pacific,1965,1.036636055,49
+East Asia & Pacific,1966,1.09112059,47
+East Asia & Pacific,1967,1.0748875,48
+East Asia & Pacific,1968,1.164343423,46
+East Asia & Pacific,1969,1.320421097,45
+East Asia & Pacific,1970,1.59326071,44
+East Asia & Pacific,1971,1.695558532,43
+East Asia & Pacific,1972,1.743842621,42
+East Asia & Pacific,1973,1.818349009,40
+East Asia & Pacific,1974,1.798688473,41
+East Asia & Pacific,1975,1.864333115,39
+East Asia & Pacific,1976,1.924990249,38
+East Asia & Pacific,1977,2.03378421,37
+East Asia & Pacific,1978,2.117362547,35
+East Asia & Pacific,1979,2.166447015,31
+East Asia & Pacific,1980,2.131379537,33
+East Asia & Pacific,1981,2.079261975,36
+East Asia & Pacific,1982,2.121405939,34
+East Asia & Pacific,1983,2.154039938,32
+East Asia & Pacific,1984,2.26991737,30
+East Asia & Pacific,1985,2.342420731,29
+East Asia & Pacific,1986,2.389975906,28
+East Asia & Pacific,1987,2.466916006,27
+East Asia & Pacific,1988,2.62793287,24
+East Asia & Pacific,1989,2.671625946,22
+East Asia & Pacific,1990,2.494467181,26
+East Asia & Pacific,1991,2.56959646,25
+East Asia & Pacific,1992,2.631886473,23
+East Asia & Pacific,1993,2.758994094,21
+East Asia & Pacific,1994,2.855636497,20
+East Asia & Pacific,1995,3.056186324,17
+East Asia & Pacific,1996,3.059596868,16
+East Asia & Pacific,1997,3.090488012,15
+East Asia & Pacific,1998,3.055468701,18
+East Asia & Pacific,1999,3.042058843,19
+East Asia & Pacific,2000,3.16843593,14
+East Asia & Pacific,2001,3.259852218,13
+East Asia & Pacific,2002,3.409225734,12
+East Asia & Pacific,2003,3.717593082,11
+East Asia & Pacific,2004,4.084304076,10
+East Asia & Pacific,2005,4.413761948,9
+East Asia & Pacific,2006,4.690112274,8
+East Asia & Pacific,2007,4.976091688,7
+East Asia & Pacific,2008,5.032380069,6
+East Asia & Pacific,2009,5.221767283,5
+East Asia & Pacific,2010,5.629335017,4
+East Asia & Pacific,2011,6.035842043,3
+East Asia & Pacific,2012,6.150128387,2
+East Asia & Pacific,2013,6.298870519,1
+Europe & Central Asia,1961,7.415604227,47
+Europe & Central Asia,1962,7.73822894,38
+Europe & Central Asia,1963,8.189670354,31
+Europe & Central Asia,1964,8.517185137,29
+Europe & Central Asia,1965,8.816231779,27
+Europe & Central Asia,1966,9.114528997,26
+Europe & Central Asia,1967,9.335340675,24
+Europe & Central Asia,1968,9.665967546,22
+Europe & Central Asia,1969,10.08133776,21
+Europe & Central Asia,1970,10.61122113,20
+Europe & Central Asia,1971,10.97774628,19
+Europe & Central Asia,1972,11.3960301,18
+Europe & Central Asia,1973,11.8438527,17
+Europe & Central Asia,1974,11.86491313,16
+Europe & Central Asia,1975,11.96960519,15
+Europe & Central Asia,1976,12.50273608,13
+Europe & Central Asia,1977,12.62745306,10
+Europe & Central Asia,1978,12.95591942,8
+Europe & Central Asia,1979,13.17731176,1
+Europe & Central Asia,1980,13.1706318,2
+Europe & Central Asia,1981,12.62970771,9
+Europe & Central Asia,1982,12.56128757,11
+Europe & Central Asia,1983,12.51237071,12
+Europe & Central Asia,1984,12.47675117,14
+Europe & Central Asia,1985,13.08717572,4
+Europe & Central Asia,1986,13.0495275,6
+Europe & Central Asia,1987,13.05208545,5
+Europe & Central Asia,1988,13.08720651,3
+Europe & Central Asia,1989,13.04253797,7
+Europe & Central Asia,1990,9.476590536,23
+Europe & Central Asia,1991,9.313163327,25
+Europe & Central Asia,1992,8.78791394,28
+Europe & Central Asia,1993,8.291099606,30
+Europe & Central Asia,1994,7.823039814,33
+Europe & Central Asia,1995,7.750880182,36
+Europe & Central Asia,1996,7.773038095,35
+Europe & Central Asia,1997,7.500886116,44
+Europe & Central Asia,1998,7.480261455,46
+Europe & Central Asia,1999,7.412124432,48
+Europe & Central Asia,2000,7.482160159,45
+Europe & Central Asia,2001,7.536520441,42
+Europe & Central Asia,2002,7.534290522,43
+Europe & Central Asia,2003,7.736199647,39
+Europe & Central Asia,2004,7.746554807,37
+Europe & Central Asia,2005,7.700388252,41
+Europe & Central Asia,2006,7.830097751,32
+Europe & Central Asia,2007,7.79165317,34
+Europe & Central Asia,2008,7.728668296,40
+Europe & Central Asia,2009,7.102064944,53
+Europe & Central Asia,2010,7.368627819,49
+Europe & Central Asia,2011,7.363895495,50
+Europe & Central Asia,2012,7.290488892,51
+Europe & Central Asia,2013,7.108636433,52
+European Union,1961,4.932845597,53
+European Union,1962,5.299049686,52
+European Union,1963,5.736879246,51
+European Union,1964,6.011416269,50
+European Union,1965,6.188186542,49
+European Union,1966,6.416514769,48
+European Union,1967,6.676945864,47
+European Union,1968,7.095467681,43
+European Union,1969,7.541633978,40
+European Union,1970,8.066820728,25
+European Union,1971,8.257194549,21
+European Union,1972,8.682102721,18
+European Union,1973,9.152800479,8
+European Union,1974,9.094179247,11
+European Union,1975,8.880324829,17
+European Union,1976,9.583495755,4
+European Union,1977,9.471498311,5
+European Union,1978,9.813020252,3
+European Union,1979,10.13277948,1
+European Union,1980,9.989263546,2
+European Union,1981,9.339867555,6
+European Union,1982,9.103718072,10
+European Union,1983,8.930120536,15
+European Union,1984,8.897907776,16
+European Union,1985,9.041194752,12
+European Union,1986,8.956174821,14
+European Union,1987,9.128415876,9
+European Union,1988,8.956410313,13
+European Union,1989,9.200370699,7
+European Union,1990,8.472880884,19
+European Union,1991,8.355288111,20
+European Union,1992,8.060522613,26
+European Union,1993,7.891457628,34
+European Union,1994,7.84294042,36
+European Union,1995,7.953597625,31
+European Union,1996,8.168834954,22
+European Union,1997,7.995990102,29
+European Union,1998,7.965992524,30
+European Union,1999,7.824787373,38
+European Union,2000,7.831506747,37
+European Union,2001,7.951092724,32
+European Union,2002,7.916832032,33
+European Union,2003,8.102731053,23
+European Union,2004,8.084480756,24
+European Union,2005,8.010662536,27
+European Union,2006,8.002438546,28
+European Union,2007,7.883806504,35
+European Union,2008,7.682107735,39
+European Union,2009,7.097331958,42
+European Union,2010,7.281549193,41
+European Union,2011,7.072379569,44
+European Union,2012,6.927204679,45
+European Union,2013,6.742973717,46
+Latin America & Caribbean,1961,1.370715508,53
+Latin America & Caribbean,1962,1.416589701,51
+Latin America & Caribbean,1963,1.377124267,52
+Latin America & Caribbean,1964,1.445430536,50
+Latin America & Caribbean,1965,1.451086346,49
+Latin America & Caribbean,1966,1.482761423,48
+Latin America & Caribbean,1967,1.557422865,47
+Latin America & Caribbean,1968,1.613820852,46
+Latin America & Caribbean,1969,1.712493396,45
+Latin America & Caribbean,1970,1.843995713,44
+Latin America & Caribbean,1971,1.887235076,43
+Latin America & Caribbean,1972,1.929528782,42
+Latin America & Caribbean,1973,2.057639121,39
+Latin America & Caribbean,1974,2.118864483,35
+Latin America & Caribbean,1975,2.095653197,36
+Latin America & Caribbean,1976,2.179651455,32
+Latin America & Caribbean,1977,2.193869517,31
+Latin America & Caribbean,1978,2.303319734,26
+Latin America & Caribbean,1979,2.410922138,16
+Latin America & Caribbean,1980,2.47744517,10
+Latin America & Caribbean,1981,2.398174588,20
+Latin America & Caribbean,1982,2.410615704,17
+Latin America & Caribbean,1983,2.250576559,29
+Latin America & Caribbean,1984,2.240521411,30
+Latin America & Caribbean,1985,2.263138049,27
+Latin America & Caribbean,1986,2.259473231,28
+Latin America & Caribbean,1987,2.326050894,24
+Latin America & Caribbean,1988,2.33588509,23
+Latin America & Caribbean,1989,2.426486864,14
+Latin America & Caribbean,1990,2.035780827,41
+Latin America & Caribbean,1991,2.053881551,40
+Latin America & Caribbean,1992,2.062179358,38
+Latin America & Caribbean,1993,2.091509166,37
+Latin America & Caribbean,1994,2.160540248,34
+Latin America & Caribbean,1995,2.17424546,33
+Latin America & Caribbean,1996,2.307413796,25
+Latin America & Caribbean,1997,2.409734138,18
+Latin America & Caribbean,1998,2.461689715,12
+Latin America & Caribbean,1999,2.402944782,19
+Latin America & Caribbean,2000,2.446079724,13
+Latin America & Caribbean,2001,2.417240156,15
+Latin America & Caribbean,2002,2.397149856,21
+Latin America & Caribbean,2003,2.392766289,22
+Latin America & Caribbean,2004,2.464223249,11
+Latin America & Caribbean,2005,2.532411869,9
+Latin America & Caribbean,2006,2.565589141,8
+Latin America & Caribbean,2007,2.640735831,6
+Latin America & Caribbean,2008,2.710852478,5
+Latin America & Caribbean,2009,2.625122854,7
+Latin America & Caribbean,2010,2.735001929,4
+Latin America & Caribbean,2011,2.808424737,3
+Latin America & Caribbean,2012,2.875787215,2
+Latin America & Caribbean,2013,2.917722363,1
+Middle East & North Africa,1961,0.973669607,53
+Middle East & North Africa,1962,1.03488403,52
+Middle East & North Africa,1963,1.169979347,51
+Middle East & North Africa,1964,1.323094575,50
+Middle East & North Africa,1965,1.534246693,49
+Middle East & North Africa,1966,1.706669306,48
+Middle East & North Africa,1967,1.771404059,47
+Middle East & North Africa,1968,1.994392954,46
+Middle East & North Africa,1969,2.251860328,45
+Middle East & North Africa,1970,2.330219872,44
+Middle East & North Africa,1971,2.551866577,43
+Middle East & North Africa,1972,2.670462292,42
+Middle East & North Africa,1973,3.066924707,39
+Middle East & North Africa,1974,3.028070732,40
+Middle East & North Africa,1975,2.906121406,41
+Middle East & North Africa,1976,3.334677497,34
+Middle East & North Africa,1977,3.410231178,33
+Middle East & North Africa,1978,3.489940265,31
+Middle East & North Africa,1979,3.560851166,27
+Middle East & North Africa,1980,3.499655105,30
+Middle East & North Africa,1981,3.286560458,37
+Middle East & North Africa,1982,3.208182504,38
+Middle East & North Africa,1983,3.313714004,36
+Middle East & North Africa,1984,3.433027242,32
+Middle East & North Africa,1985,3.514925706,28
+Middle East & North Africa,1986,3.635489829,24
+Middle East & North Africa,1987,3.574115435,26
+Middle East & North Africa,1988,3.704380406,22
+Middle East & North Africa,1989,3.719994096,21
+Middle East & North Africa,1990,3.334142805,35
+Middle East & North Africa,1991,3.502827879,29
+Middle East & North Africa,1992,3.598016881,25
+Middle East & North Africa,1993,3.701977574,23
+Middle East & North Africa,1994,3.873130335,20
+Middle East & North Africa,1995,3.899990097,19
+Middle East & North Africa,1996,3.949270053,17
+Middle East & North Africa,1997,3.992047459,16
+Middle East & North Africa,1998,3.940604988,18
+Middle East & North Africa,1999,4.009763902,15
+Middle East & North Africa,2000,4.078842054,14
+Middle East & North Africa,2001,4.203993687,13
+Middle East & North Africa,2002,4.305184579,12
+Middle East & North Africa,2003,4.373803756,11
+Middle East & North Africa,2004,4.541944377,10
+Middle East & North Africa,2005,4.811704836,9
+Middle East & North Africa,2006,4.994446478,8
+Middle East & North Africa,2007,5.140106868,7
+Middle East & North Africa,2008,5.332964756,6
+Middle East & North Africa,2009,5.440825923,5
+Middle East & North Africa,2010,5.544072122,3
+Middle East & North Africa,2011,5.536398989,4
+Middle East & North Africa,2012,5.741528708,1
+Middle East & North Africa,2013,5.735943827,2
+North America,1961,15.22591183,53
+North America,1962,15.57257227,52
+North America,1963,15.99706747,50
+North America,1964,16.54338452,47
+North America,1965,17.02698453,45
+North America,1966,17.64292429,43
+North America,1967,18.15419062,41
+North America,1968,18.67382277,34
+North America,1969,19.36723929,20
+North America,1970,20.63304563,8
+North America,1971,20.51119886,10
+North America,1972,21.31108396,4
+North America,1973,21.98175677,1
+North America,1974,21.08159405,6
+North America,1975,20.09168314,12
+North America,1976,20.76000421,7
+North America,1977,21.1147368,5
+North America,1978,21.52745739,2
+North America,1979,21.44260623,3
+North America,1980,20.52606065,9
+North America,1981,19.53134467,19
+North America,1982,18.39036091,39
+North America,1983,18.33379476,40
+North America,1984,18.74897714,32
+North America,1985,18.63559701,35
+North America,1986,18.40976328,38
+North America,1987,19.05465847,26
+North America,1988,19.71911525,18
+North America,1989,19.77240246,16
+North America,1990,18.98661574,27
+North America,1991,18.58304512,37
+North America,1992,18.62995599,36
+North America,1993,18.79485121,31
+North America,1994,18.87301504,29
+North America,1995,18.87027184,30
+North America,1996,19.22245718,24
+North America,1997,19.92285374,13
+North America,1998,19.86500581,14
+North America,1999,19.73514048,17
+North America,2000,20.11481753,11
+North America,2001,19.80333828,15
+North America,2002,19.18917941,25
+North America,2003,19.28954272,22
+North America,2004,19.33437044,21
+North America,2005,19.24436165,23
+North America,2006,18.73122104,33
+North America,2007,18.89463463,28
+North America,2008,18.12704499,42
+North America,2009,16.6912471,46
+North America,2010,17.26997425,44
+North America,2011,16.53901451,48
+North America,2012,15.77403901,51
+North America,2013,16.08246342,49
+South Asia,1961,0.278026645,53
+South Asia,1962,0.299625306,52
+South Asia,1963,0.318525547,50
+South Asia,1964,0.307700506,51
+South Asia,1965,0.328889183,48
+South Asia,1966,0.331782873,46
+South Asia,1967,0.329633906,47
+South Asia,1968,0.354107668,40
+South Asia,1969,0.35026156,42
+South Asia,1970,0.349332934,43
+South Asia,1971,0.352442164,41
+South Asia,1972,0.328871082,49
+South Asia,1973,0.33328949,45
+South Asia,1974,0.336787557,44
+South Asia,1975,0.356947318,39
+South Asia,1976,0.362854144,38
+South Asia,1977,0.375434536,36
+South Asia,1978,0.37399567,37
+South Asia,1979,0.384786346,35
+South Asia,1980,0.399171067,34
+South Asia,1981,0.420412471,33
+South Asia,1982,0.426495964,32
+South Asia,1983,0.450119793,31
+South Asia,1984,0.452272649,30
+South Asia,1985,0.486066273,29
+South Asia,1986,0.507675543,28
+South Asia,1987,0.530209616,27
+South Asia,1988,0.559708302,26
+South Asia,1989,0.595992894,23
+South Asia,1990,0.567342503,25
+South Asia,1991,0.592678265,24
+South Asia,1992,0.605793263,22
+South Asia,1993,0.617441315,21
+South Asia,1994,0.636840582,20
+South Asia,1995,0.673619397,19
+South Asia,1996,0.692377846,18
+South Asia,1997,0.717335516,17
+South Asia,1998,0.718263187,16
+South Asia,1999,0.759801003,15
+South Asia,2000,0.773531071,13
+South Asia,2001,0.773166446,14
+South Asia,2002,0.78573783,12
+South Asia,2003,0.795362375,11
+South Asia,2004,0.839647473,10
+South Asia,2005,0.863837789,9
+South Asia,2006,0.907528053,8
+South Asia,2007,0.982300307,7
+South Asia,2008,1.023284506,6
+South Asia,2009,1.102908371,5
+South Asia,2010,1.149821902,4
+South Asia,2011,1.198544362,3
+South Asia,2012,1.274240336,2
+South Asia,2013,1.291827692,1
