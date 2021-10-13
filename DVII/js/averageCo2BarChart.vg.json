@@ -1,0 +1,59 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title" : "Average Regional Co2 Per Capita",
+    "description": "A bar chart with highlighting on hover and selecting on click. (Inspired by Tableau's interaction style.)",
+    "data": {
+        "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Co2_Emissions_Regions.csv"
+
+    },
+    "params": [
+      {
+        "name": "highlight",
+        "select": {"type": "point", "on": "mouseover"}
+      },
+      {"name": "select", "select": "point"}
+    ],
+    "mark": {
+      "type": "bar",
+      "stroke" : "black",
+      "cursor": "pointer"
+    },
+    "encoding": {
+      "x": {"field": "Country", "type": "nominal", "title" : "Region"},
+      "y": {"aggregate" : "average", "field": "Co2 Emissions per Capita", "type": "quantitative"},
+      "color": {
+      "field": "Country",
+      "type": "nominal",
+      "legend" : null
+    },
+      "tooltip": [
+        {"field": "Country", "type": "nominal", "title" : "Region"},
+        {"aggregate" : "average", "field": "Co2 Emissions per Capita", "type": "quantitative", "format": ".2f"}
+      ],
+      "fillOpacity": {
+        "condition": {"param": "select", "value": 1},
+        "value": 0.3
+      },
+      "strokeWidth": {
+      "condition": [
+        {
+          "param": "select",
+          "empty": false,
+          "value": 2
+        },
+        {
+          "param": "highlight",
+          "empty": false,
+          "value": 1
+        }
+      ],
+      "value": 0
+    }
+  },
+  "config": {
+    "scale": {
+      "bandPaddingInner": 0.2
+    }
+  }
+}
+  
