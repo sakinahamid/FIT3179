@@ -4,6 +4,8 @@
         "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/temp_change/Temp_Change_Regions.csv"
     },
     "title": "Regional Temperature Change (C) Over Time",
+    "width" : 1500,
+    "height" : 400,
     "params": [
       {
       "name": "highlight",

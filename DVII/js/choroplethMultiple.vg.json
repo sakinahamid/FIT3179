@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title" : "Global Temperature Change (2003, 2005, 2007, 2009, 2011, 2013)",
-    "repeat" : ["2003", "2005", "2007", "2009", "2011", "2013"],
-    "columns" : 2,
+    "title" : "Global Temperature Change (1961 and 2013)",
+    "repeat" : ["1961", "2013"],
+    "columns" : 1,
     "spec" : {
       "projection": {
       "type": "equirectangular"
@@ -76,11 +76,7 @@
         "data" : {
           "values" : [
             {
-              "2003" : "Year: 2003",
-              "2005" : "Year: 2005",
-              "2007" : "Year: 2007",
-              "2009" : "Year: 2009",
-              "2011" : "Year: 2011",
+              "1961" : "Year: 1961",
               "2013" : "Year: 2013"
             }
           ]

@@ -25,6 +25,7 @@ body {
 }
 
 .pull-quote {
+    padding-top: 10px;
     text-align: center;
     font-style: italic;
     font-weight: lighter;
@@ -50,6 +51,7 @@ body {
     width: 100%;
     position: relative;
     color: white;
+    margin-top: 20px;
 }
 
 h2 {
@@ -80,3 +82,12 @@ h3 {
     width: container;
     position: center;
 }
+
+#area_chart_sea {
+    padding-left: 50px;
+}
+
+#area_chart_temp {
+    padding-left: 50px;
+}
+

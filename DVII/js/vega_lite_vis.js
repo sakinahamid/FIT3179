@@ -12,3 +12,28 @@ var vg_3 = "js/averageCo2BarChart.vg.json";
 vegaEmbed('#bar_chart', vg_3).then(function(result) {
 // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
 }).catch(console.error);
+
+var vg_4 = "js/areaChartGlobalSeaLevel.vg.json";
+vegaEmbed('#area_chart_sea', vg_4).then(function(result) {
+// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);
+
+var vg_5 = "js/tempChangeAreaChart.vg.json";
+vegaEmbed('#area_chart_temp', vg_5).then(function(result) {
+// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);
+
+var vg_6 = "js/choroplethMap.vg.json";
+vegaEmbed('#choropleth_map', vg_6).then(function(result) {
+// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);
+
+var vg_7 = "js/choroplethMultiple.vg.json";
+vegaEmbed('#choropleth_multiple', vg_7).then(function(result) {
+// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);
+
+var vg_8 = "js/tempHeatMap.vg.json";
+vegaEmbed('#heat_map', vg_8).then(function(result) {
+// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);
