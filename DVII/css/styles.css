@@ -11,6 +11,11 @@ body {
     width: 100%;
 }
 
+.center {
+    justify-content: center;
+  }
+  
+
 #banner .topic h1 {
     border: 3px solid white;
     border-radius: 10px;
