@@ -1,21 +1,47 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
-    "height": 500,
-    "title" : "Emissions based on Greenhouse Gases",
-    "description": "A simple donut chart with embedded data.",
-    "data": {
-        "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Emissions_by_Gas.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 500,
+  "title" : "Emissions based on Greenhouse Gases",
+  "description": "A simple donut chart with embedded data.",
+  "data": {
+      "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Emissions_by_Gas.csv"
 
+  },
+  "params": [
+    {
+      "name": "highlight",
+      "select": {"type": "point", "on": "mouseover"}
     },
-    "mark": {"type": "arc", "innerRadius": 50},
-    "encoding": {
-      "theta": {"field": "Emission (%)", "type": "quantitative"},
-      "color": {"field": "Greenhouse Gas", "type": "nominal"},
-      "tooltip": [
-        {"field": "Greenhouse Gas", "type": "nominal"},
-        {"field": "Emission (%)", "type": "quantitative", "format": ".2f"}
-      ]
-    }
+    {"name": "select", "select": "point"}
+  ],
+  "mark": {"type": "arc", "innerRadius": 50, "stroke" : "black",
+    "cursor": "pointer"},
+  "encoding": {
+    "theta": {"field": "Emission (%)", "type": "quantitative"},
+    "color": {"field": "Greenhouse Gas", "type": "nominal"},
+    "tooltip": [
+      {"field": "Greenhouse Gas", "type": "nominal"},
+      {"field": "Emission (%)", "type": "quantitative", "format": ".2f"}
+    ],
+    "fillOpacity": {
+      "condition": {"param": "select", "value": 1},
+      "value": 0.5
+    },
+    "strokeWidth": {
+    "condition": [
+      {
+        "param": "select",
+        "empty": false,
+        "value": 2
+      },
+      {
+        "param": "highlight",
+        "empty": false,
+        "value": 2
+      }
+    ],
+    "value": 0
   }
-  
+  }
+}

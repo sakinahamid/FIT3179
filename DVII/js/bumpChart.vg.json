@@ -1,36 +1,60 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-      "text": "Ranking of Regional Co2 Per Capita Over Time",
-      "frame": "bounds"
-    },
-    "width": 1000,
-    "height": 400,
-    "data": {"url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Co2_Emissions_Regions_Rank_2.csv"},
-    "params": [{
-    "name": "region",
-    "select": {"type": "point", "fields": ["Country"], "on" : "mouseover"}
-  }],
-    "mark": {
-      "type": "line", 
-      "orient": "vertical", 
-      "point" : true,
-      "cursor" : "pointer"
-    },
-    "encoding": {
-      "x": {"field": "Year", "type": "ordinal"},
-      "y": {"field": "Class", "type": "ordinal", "title": "Rank"},
-      "color": {
-        "field": "Country", "type": "nominal", "title" : "Region"
-        },
-      "tooltip" : [
-        {"field" : "Country", "type" : "nominal", "title" : "Region"},
-        {"field" : "Year", "type" : "ordinal"},
-        {"field" : "Co2 Emissions per Capita", "type" : "quantitative", "format" : ".2f", "title" : "Co2 Emissions Per Capita"}
-      ],
-      "opacity": {
-      "condition": {"param": "region", "value": 1},
-      "value": 0.2
-    }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Ranking of Regional Co2 Per Capita Over Time",
+    "frame": "bounds"
+  },
+  "width": 1000,
+  "height": 400,
+  "data": {"url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Co2_Emissions_Regions_Rank_2.csv"},
+  "params": [{
+  "name": "region",
+  "select": {"type": "point", "fields": ["Country"], "on" : "mouseover"}
+}],
+  "mark": {
+    "type": "line", 
+    "orient": "vertical", 
+    "point" : true,
+    "cursor" : "pointer"
+  },
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal"},
+    "y": {"field": "Class", "type": "ordinal", "title": "Rank"},
+    "color": {
+      "field": "Country", "type": "nominal", "title" : "Region",
+      "scale": {
+        "domain": [
+          "Africa Eastern and Southern",
+          "Africa Western and Central",
+          "East Asia & Pacific",
+          "Europe & Central Asia",
+          "European Union",
+          "Latin America & Caribbean",
+          "Middle East & North Africa",
+          "North America",
+          "South Asia"
+          ], 
+        "range": [
+          "#a6cee3", 
+          "#1f78b4",
+          "#b2df8a",
+          "#33a02c",
+          "#fb9a99",
+          "#e31a1c",
+          "#fdbf6f",
+          "#ff7f00",
+          "#cab2d6"
+          ]
+      
+      }},
+    "tooltip" : [
+      {"field" : "Country", "type" : "nominal", "title" : "Region"},
+      {"field" : "Year", "type" : "ordinal"},
+      {"field" : "Co2 Emissions per Capita", "type" : "quantitative", "format" : ".2f", "title" : "Co2 Emissions Per Capita"}
+    ],
+    "opacity": {
+    "condition": {"param": "region", "value": 1},
+    "value": 0.2
   }
+}
 }
