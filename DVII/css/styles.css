@@ -78,16 +78,17 @@ h3 {
     margin-left: 20px;
 }
 
-#bump_chart {
-    width: container;
-    position: center;
-}
-
 #area_chart_sea {
     padding-left: 50px;
 }
 
 #area_chart_temp {
     padding-left: 50px;
+}
+
+#hconcat_co2 {
+    padding-left: 100px;
+    border: 20px;
+    margin-left: 30px;
 }
 
