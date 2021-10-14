@@ -4,6 +4,8 @@
       "text": "Ranking of Regional Co2 Per Capita Over Time",
       "frame": "bounds"
     },
+    "width": 1000,
+    "height": 400,
     "data": {"url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Co2_Emissions_Regions_Rank_2.csv"},
     "params": [{
     "name": "region",

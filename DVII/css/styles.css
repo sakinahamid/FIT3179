@@ -1,17 +1,17 @@
 body {
-    background-color: whitesmoke;
+    background-color: white;
     font-family: 'Raleway', sans-serif;
 }
 
 #banner {
-    background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+    background-image: url("https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/pictures/pexels-photo-3147058.jpeg");
     background-size: cover;
     background-position: center;
     height: 210px;
     width: 100%;
 }
 
-#banner .content h1 {
+#banner .topic h1 {
     border: 3px solid white;
     border-radius: 10px;
     position: relative;
@@ -22,4 +22,61 @@ body {
     color: white;
     font-size: 50px;
     opacity: 100% ;
+}
+
+.pull-quote {
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    color:rgb(34, 59, 87);
+}
+
+#quotee {
+    font-size: 12px;
+    font-style: normal;
+    color: black;
+}
+
+.caption {
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.subtopic {
+    background-color: rgb(116, 154, 197);
+    height: 100px;
+    width: 100%;
+    position: relative;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+#donut_chart {
+    margin: 20px;
+    padding: 30px;
+    float: left;
+}
+
+h3 {
+    text-align: center;
+}
+
+#text_div {
+    width: 40vw;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#bump_chart {
+    width: container;
+    position: center;
 }

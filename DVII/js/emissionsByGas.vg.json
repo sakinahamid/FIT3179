@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 300,
-    "height": 200,
+    "width": 500,
+    "height": 500,
     "title" : "Emissions based on Greenhouse Gases",
     "description": "A simple donut chart with embedded data.",
     "data": {
