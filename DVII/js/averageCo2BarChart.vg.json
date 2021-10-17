@@ -6,77 +6,73 @@
       "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Co2_Emissions_Regions.csv"
 
   },
-  "width" : 500,
-  "height" : 300,
-  "params": [
-    {
-      "name": "highlight",
-      "select": {"type": "point", "on": "mouseover"}
+ "width" : 500,
+    "height" : 300,
+    "encoding": {
+      "x": {"field": "Country", "type": "nominal", "title" : "Region"},
+      "y": {"aggregate" : "average", "field": "Co2 Emissions per Capita", "type": "quantitative"}
     },
-    {"name": "select", "select": "point"}
-  ],
-  "mark": {
-    "type": "bar",
-    "stroke" : "black",
-    "cursor": "pointer"
-  },
-  "encoding": {
-    "x": {"field": "Country", "type": "nominal", "title" : "Region"},
-    "y": {"aggregate" : "average", "field": "Co2 Emissions per Capita", "type": "quantitative"},
-    "color": {
-    "field": "Country",
-    "type": "nominal",
-    "scale": {
-      "domain": [
-        "Africa Eastern and Southern",
-        "Africa Western and Central",
-        "East Asia & Pacific",
-        "Europe & Central Asia",
-        "European Union",
-        "Latin America & Caribbean",
-        "Middle East & North Africa",
-        "North America",
-        "South Asia"
-        ], 
-      "range": [
-        "#a6cee3", 
-        "#1f78b4",
-        "#b2df8a",
-        "#33a02c",
-        "#fb9a99",
-        "#e31a1c",
-        "#fdbf6f",
-        "#ff7f00",
-        "#cab2d6"
-        ]
-    
-    },
-    "legend" : null
-  },
-    "tooltip": [
-      {"field": "Country", "type": "nominal", "title" : "Region"},
-      {"aggregate" : "average", "field": "Co2 Emissions per Capita", "type": "quantitative", "format": ".2f"}
-    ],
-    "fillOpacity": {
-      "condition": {"param": "select", "value": 1},
-      "value": 0.5
-    },
-    "strokeWidth": {
-    "condition": [
+    "layer" : [{
+      "params": [
       {
-        "param": "select",
-        "empty": false,
-        "value": 2
-      },
-      {
-        "param": "highlight",
-        "empty": false,
-        "value": 1
+        "name": "region",
+        "select": {"type": "point", "fields": ["Country"], "on" : "mouseover"}
       }
     ],
-    "value": 0
+    "mark": {
+      "type": "bar",
+      "cursor": "pointer"
+    },
+    "encoding": {
+      "color": {
+      "field": "Country",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Africa Eastern and Southern",
+          "Africa Western and Central",
+          "East Asia & Pacific",
+          "Europe & Central Asia",
+          "European Union",
+          "Latin America & Caribbean",
+          "Middle East & North Africa",
+          "North America",
+          "South Asia"
+          ], 
+        "range": [
+          "#a6cee3", 
+          "#1f78b4",
+          "#b2df8a",
+          "#33a02c",
+          "#fb9a99",
+          "#e31a1c",
+          "#fdbf6f",
+          "#ff7f00",
+          "#cab2d6"
+          ]
+      
+      }
+    },
+      "tooltip": [
+        {"field": "Country", "type": "nominal", "title" : "Region"},
+        {"aggregate" : "average", "field": "Co2 Emissions per Capita", "type": "quantitative", "format": ".2f"}
+      ],
+      "opacity": {
+      "condition": {"param": "region", "value": 1},
+      "value": 0.05
+    }
   }
 },
+{
+    "mark": {
+      "type": "text",
+      "align": "center",
+      "dy" : -5
+    },
+    "encoding": {
+      "text": {"aggregate" : "average", "field": "Co2 Emissions per Capita", "type": "quantitative", "format": ".2f"}
+    }
+  }],
 "config": {
   "scale": {
     "bandPaddingInner": 0.2

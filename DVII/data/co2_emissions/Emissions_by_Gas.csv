@@ -1,5 +1,5 @@
-﻿Greenhouse Gas,Emission (%)
-Carbon Dioxide,65
-Methane,16
-Nitrous Oxide,6
-Fluorinated Gases,2
+﻿Formula,Greenhouse Gas,Emission (%)
+CO2,Carbon Dioxide,65
+CH4,Methane,16
+N2O,Nitrous Oxide,6
+HFCs,Fluorinated Gases,2
