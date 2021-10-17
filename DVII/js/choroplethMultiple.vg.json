@@ -10,6 +10,12 @@
 "height": 600,
   "layer": [
     {
+      "params": [
+        {
+            "name": "pts",
+            "select": { "type": "point", "on": "mouseover" }
+        }
+      ],
       "data": {
         "url":  
 "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/js/ne_110m_admin_0_countries.topojson",
@@ -70,7 +76,27 @@
         "tooltip": [
           {"field": "Country", "type": "nominal"},
           {"field": {"repeat": "repeat"}, "type": "quantitative", "title": "Temperature Change (C)"}
-        ]
+        ],
+        "stroke": {
+                    "condition": {
+                        "param": "pts",
+                        "empty": false,
+                        "value": "black"
+                    },
+                    "value": "gray"
+                },
+                "strokeWidth": {
+                    "condition": {
+                        "param": "pts",
+                        "empty": false,
+                        "value": 2
+                    },
+                    "value": 1
+                },
+                "opacity": {
+                    "condition": { "param": "pts", "value": 1 },
+                    "value": 0.9
+                }
       }
     },
     {
@@ -90,7 +116,60 @@
         "y" : 0
       },
       "encoding": {"text": {"field": {"repeat": "repeat"}}}
-    }
+    },
+    {
+          "data" : {
+            "url" : "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/world_country_latitude_and_longitude.csv"
+          },
+
+          "encoding": {
+            "longitude" : {
+              "field": "longitude",
+              "type": "quantitative"
+            },
+            "latitude" : {
+              "field": "latitude",
+              "type": "quantitative"
+            }
+          },
+
+          "layer": [ {
+        "mark": {
+        "type": "text",
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+        "encoding": {
+        "text": {"field": "country", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['country'] == 'Malaysia' || datum['country'] == 'New Zealand' || datum['country'] == 'United States' ",
+            "value": 1
+          },
+          "value": 0
+        }
+      }
+      },
+      {
+        "mark": {
+        "type": "text",
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+        "encoding": {
+        "text": {"field": "country", "type": "nominal"},
+        "color": {"value": "white"},
+        "opacity": {
+          "condition": {
+            "test":  "datum['country'] == 'China' || datum['country'] == 'Australia'  || datum['country'] == 'Russia' || datum['country'] == 'Canada' || datum['country'] == 'Brazil' ||  datum['country'] == 'Antarctica'",
+            "value": 1
+          },
+          "value": 0
+        }
+      }
+      }]
+      }
   ]
   },
  "config": {} 

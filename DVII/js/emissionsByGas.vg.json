@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 500,
+  "width": 700,
   "height": 500,
   "title" : "Emissions based on Greenhouse Gases",
   "description": "A simple donut chart with embedded data.",
@@ -8,18 +8,21 @@
       "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Emissions_by_Gas.csv"
 
   },
-  "params": [
+  "encoding" :{
+    "theta": {"field": "Emission (%)", "type": "quantitative", "stack" : true},
+    "color": {"field": "Greenhouse Gas", "type": "nominal"}
+  },
+  "layer" : [
+    {
+      "params": [
     {
       "name": "highlight",
       "select": {"type": "point", "on": "mouseover"}
     },
     {"name": "select", "select": "point"}
   ],
-  "mark": {"type": "arc", "innerRadius": 50, "stroke" : "black",
-    "cursor": "pointer"},
+  "mark": {"type": "arc", "innerRadius": 50, "stroke" : "black"},
   "encoding": {
-    "theta": {"field": "Emission (%)", "type": "quantitative"},
-    "color": {"field": "Greenhouse Gas", "type": "nominal"},
     "tooltip": [
       {"field": "Greenhouse Gas", "type": "nominal"},
       {"field": "Emission (%)", "type": "quantitative", "format": ".2f"}
@@ -44,4 +47,12 @@
     "value": 0
   }
   }
+    },
+     {
+    "mark": {"type": "text", "radius": 270},
+    "encoding": {
+      "text": {"field": "Formula", "type": "nominal"}
+    }
+  }
+  ]
 }
