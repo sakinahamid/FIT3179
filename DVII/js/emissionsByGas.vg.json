@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 700,
   "height": 500,
-  "title" : "Emissions based on Greenhouse Gases",
   "description": "A simple donut chart with embedded data.",
   "data": {
       "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Emissions_by_Gas.csv"

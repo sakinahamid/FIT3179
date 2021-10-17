@@ -2,7 +2,6 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 1700,
     "height": 200,
-    "title" : "Average of Global Temperature Change Over Time",
     "data": {"url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/temp_change/Temp_Change_World.csv"},
     "mark": {
         "type": "area",

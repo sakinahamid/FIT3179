@@ -1,90 +1,167 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Global Temperature Change (1961 - 2013)",
-    "width": 800,
-    "height": 600,
-    "params": [
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 600,
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2013,
+      "bind": {
+        "input": "range",
+        "min": 1961,
+        "max": 2013,
+        "step": 1,
+        "name": "Year:  "
+      }
+    }
+  ],
+  "projection": {
+    "type": "equirectangular"
+  },
+  "layer": [
+    {
+      "params": [
       {
-        "name": "Year_selection",
-        "value": 2013,
-        "bind": {
-          "input": "range",
-          "min": 1961,
-          "max": 2013,
-          "step": 1,
-          "name": "Year:  "
-        }
+          "name": "pts",
+          "select": { "type": "point", "on": "mouseover" }
       }
     ],
-    "projection": {
-      "type": "equirectangular"
-    },
-    "layer": [
-      {
-        "data": {
-          "url":  
-  "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/js/ne_110m_admin_0_countries.topojson",
-   
-          "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
-        },
-        "transform": [
-          {
-            "calculate": "'Data is not available in ' + datum.properties.NAME",
-            "as": "note"
-          }
-        ],
-        "mark": {
-          "type": "geoshape",
-          "fill": "#ddd",
-          "stroke": "white",
-          "strokeWidth": 1
-        },
-        "encoding": {"tooltip": {"field": "note"}}
+      "data": {
+        "url":  
+"https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/js/ne_110m_admin_0_countries.topojson",
+ 
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
-      {
-        "data": {
-          "url":  
-  "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/temp_change/Temp_Change_Countries_Wide.csv"
-   
-        },
-        "transform": [
-          {
-            "lookup": "Country",
-            "from": {
-              "data": {
-                "url":  
-  "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/js/ne_110m_admin_0_countries.topojson",
-   
-                "format": {
-                  "type": "topojson",
-                  "feature": "ne_110m_admin_0_countries"
-                }
-              },
-              "key": "properties.NAME"
-            },
-            "as": "geo"
-          },
-          {"calculate": "datum[Year_selection]", "as" : "Temperature Change"}
-        ],
-        "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
-        "encoding": {
-          "shape": {"field": "geo", "type": "geojson"},
-          "color": {
-                "field": "Temperature Change",
-                "type": "quantitative",
-                "scale": {
-                  "type": "threshold",
-                  "domain" : [-0.1, 0.3, 0.7, 1.1, 1.5],
-                  "range" : ["#fef0d9", "#fdd49e", "#fdbb84", "#fc8d59", "#e34a33", "#b30000"]
-                }
-              },
-          "tooltip": [
-            {"field": "Country", "type": "nominal"},
-            {"field": "Temperature Change", "type": "quantitative", "title": "Temperature Change (C)"}
-          ]
+      "transform": [
+        {
+          "calculate": "'Data is not available in ' + datum.properties.NAME",
+          "as": "note"
         }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ddd",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {"tooltip": {"field": "note"}}
+    },
+    {
+      "data": {
+        "url":  
+"https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/temp_change/Temp_Change_Countries_Wide.csv"
+ 
+      },
+      "transform": [
+        {
+          "lookup": "Country",
+          "from": {
+            "data": {
+              "url":  
+"https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/js/ne_110m_admin_0_countries.topojson",
+ 
+              "format": {
+                "type": "topojson",
+                "feature": "ne_110m_admin_0_countries"
+              }
+            },
+            "key": "properties.NAME"
+          },
+          "as": "geo"
+        },
+        {"calculate": "datum[Year_selection]", "as" : "Temperature Change"}
+      ],
+      "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+              "field": "Temperature Change",
+              "type": "quantitative",
+              "scale": {
+                "type": "threshold",
+                "domain" : [-0.1, 0.3, 0.7, 1.1, 1.5],
+                "range" : ["#fef0d9", "#fdd49e", "#fdbb84", "#fc8d59", "#e34a33", "#b30000"]
+              }
+            },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Temperature Change", "type": "quantitative", "title": "Temperature Change (C)"}
+        ],
+        "stroke": {
+                  "condition": {
+                      "param": "pts",
+                      "empty": false,
+                      "value": "black"
+                  },
+                  "value": "gray"
+              },
+              "strokeWidth": {
+                  "condition": {
+                      "param": "pts",
+                      "empty": false,
+                      "value": 2
+                  },
+                  "value": 1
+              },
+              "opacity": {
+                  "condition": { "param": "pts", "value": 1 },
+                  "value": 0.9
+              }
       }
-    ],
-    "config": {}
-  }
-  
+    },
+      {
+        "data" : {
+          "url" : "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/world_country_latitude_and_longitude.csv"
+        },
+
+        "encoding": {
+          "longitude" : {
+            "field": "longitude",
+            "type": "quantitative"
+          },
+          "latitude" : {
+            "field": "latitude",
+            "type": "quantitative"
+          }
+        },
+
+        "layer": [ {
+      "mark": {
+      "type": "text",
+      "fontSize": 11.5,
+      "fontStyle": "italic"
+    },
+      "encoding": {
+      "text": {"field": "country", "type": "nominal"},
+      "color": {"value": "black"},
+      "opacity": {
+        "condition": {
+          "test": "datum['country'] == 'Malaysia' || datum['country'] == 'New Zealand' || datum['country'] == 'United States' ",
+          "value": 1
+        },
+        "value": 0
+      }
+    }
+    },
+    {
+      "mark": {
+      "type": "text",
+      "fontSize": 11.5,
+      "fontStyle": "italic"
+    },
+      "encoding": {
+      "text": {"field": "country", "type": "nominal"},
+      "color": {"value": "white"},
+      "opacity": {
+        "condition": {
+          "test":  "datum['country'] == 'China' || datum['country'] == 'Australia'  || datum['country'] == 'Russia' || datum['country'] == 'Canada' || datum['country'] == 'Brazil' ||  datum['country'] == 'Antarctica'",
+          "value": 1
+        },
+        "value": 0
+      }
+    }
+    }]
+    }
+  ],
+  "config": {}
+}
