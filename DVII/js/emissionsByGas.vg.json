@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 700,
-  "height": 500,
+  "width": 800,
+  "height": 700,
   "description": "A simple donut chart with embedded data.",
   "data": {
       "url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/co2_emissions/Emissions_by_Gas.csv"
@@ -9,7 +9,25 @@
   },
   "encoding" :{
     "theta": {"field": "Emission (%)", "type": "quantitative", "stack" : true},
-    "color": {"field": "Greenhouse Gas", "type": "nominal"}
+    "color": {
+      "field": "Greenhouse Gas",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Carbon Dioxide",
+          "Methane",
+          "Nitrous Oxide",
+          "Fluorinated Gases"
+          ], 
+        "range": [
+          "#e41a1c", 
+          "#377eb8",
+          "#4daf4a",
+          "#984ea3"
+          ]
+      
+      }
+    }
   },
   "layer" : [
     {
@@ -20,7 +38,7 @@
     },
     {"name": "select", "select": "point"}
   ],
-  "mark": {"type": "arc", "innerRadius": 50, "stroke" : "black"},
+  "mark": {"type": "arc", "innerRadius": 200, "stroke" : "black"},
   "encoding": {
     "tooltip": [
       {"field": "Greenhouse Gas", "type": "nominal"},
@@ -48,10 +66,15 @@
   }
     },
      {
-    "mark": {"type": "text", "radius": 270},
+    "mark": {"type": "text", "radius": 370},
     "encoding": {
       "text": {"field": "Formula", "type": "nominal"}
     }
   }
-  ]
+  ],
+  "config": {
+    "view": {
+       "stroke": "transparent"
+    }
+  }
 }

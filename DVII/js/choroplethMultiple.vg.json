@@ -172,5 +172,9 @@
       }
   ]
   },
- "config": {} 
+  "config": {
+    "view": {
+       "stroke": "transparent"
+    }
+  } 
 }
