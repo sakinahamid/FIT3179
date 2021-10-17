@@ -1,97 +1,98 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title" : "Global Temperature Change (1961 and 2013)",
-    "repeat" : ["1961", "2013"],
-    "columns" : 1,
-    "spec" : {
-      "projection": {
-      "type": "equirectangular"
-    },
-    "layer": [
-      {
-        "data": {
-          "url":  
-  "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/js/ne_110m_admin_0_countries.topojson",
-   
-          "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
-        },
-        "transform": [
-          {
-            "calculate": "'Data is not available in ' + datum.properties.NAME",
-            "as": "note"
-          }
-        ],
-        "mark": {
-          "type": "geoshape",
-          "fill": "#ddd",
-          "stroke": "white",
-          "strokeWidth": 1
-        },
-        "encoding": {"tooltip": {"field": "note"}}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title" : "Global Temperature Change (1961 and 2013)",
+  "repeat" : ["1961", "2013"],
+  "columns" : 1,
+  "spec" : {
+    "projection": {
+    "type": "equirectangular"
+  },
+  "width": 800,
+"height": 600,
+  "layer": [
+    {
+      "data": {
+        "url":  
+"https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/js/ne_110m_admin_0_countries.topojson",
+ 
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
-      {
-        "data": {
-          "url":  
-  "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/temp_change/Temp_Change_Countries_Wide.csv"
-   
-        },
-        "transform": [
-          {
-            "lookup": "Country",
-            "from": {
-              "data": {
-                "url":  
-  "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/js/ne_110m_admin_0_countries.topojson",
-   
-                "format": {
-                  "type": "topojson",
-                  "feature": "ne_110m_admin_0_countries"
-                }
-              },
-              "key": "properties.NAME"
-            },
-            "as": "geo"
-          }
-        ],
-        "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
-        "encoding": {
-          "shape": {"field": "geo", "type": "geojson"},
-          "color": {
-                "field": {"repeat": "repeat"},
-                "type": "quantitative",
-                "scale": {
-                  "type": "threshold",
-                  "domain" : [-0.1, 0.3, 0.7, 1.1, 1.5],
-                  "range" : ["#fef0d9", "#fdd49e", "#fdbb84", "#fc8d59", "#e34a33", "#b30000"]
-                },
-                "title" : "Temperature Change (C)"
-              },
-          "tooltip": [
-            {"field": "Country", "type": "nominal"},
-            {"field": {"repeat": "repeat"}, "type": "quantitative", "title": "Temperature Change (C)"}
-          ]
+      "transform": [
+        {
+          "calculate": "'Data is not available in ' + datum.properties.NAME",
+          "as": "note"
         }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ddd",
+        "stroke": "white",
+        "strokeWidth": 1
       },
-      {
-        "data" : {
-          "values" : [
-            {
-              "1961" : "Year: 1961",
-              "2013" : "Year: 2013"
-            }
-          ]
-        },
-        "mark" : {
-          "type" : "text",
-          "align" : "right",
-          "baseline" : "bottom",
-          "x" : "width",
-          "y" : 0
-        },
-        "encoding": {"text": {"field": {"repeat": "repeat"}}}
-      }
-    ]
+      "encoding": {"tooltip": {"field": "note"}}
     },
-   "config": {} 
+    {
+      "data": {
+        "url":  
+"https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/temp_change/Temp_Change_Countries_Wide.csv"
+ 
+      },
+      "transform": [
+        {
+          "lookup": "Country",
+          "from": {
+            "data": {
+              "url":  
+"https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/js/ne_110m_admin_0_countries.topojson",
+ 
+              "format": {
+                "type": "topojson",
+                "feature": "ne_110m_admin_0_countries"
+              }
+            },
+            "key": "properties.NAME"
+          },
+          "as": "geo"
+        }
+      ],
+      "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+              "field": {"repeat": "repeat"},
+              "type": "quantitative",
+              "scale": {
+                "type": "threshold",
+                "domain" : [-0.1, 0.3, 0.7, 1.1, 1.5],
+                "range" : ["#fef0d9", "#fdd49e", "#fdbb84", "#fc8d59", "#e34a33", "#b30000"]
+              },
+              "title" : "Temperature Change (C)"
+            },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": {"repeat": "repeat"}, "type": "quantitative", "title": "Temperature Change (C)"}
+        ]
+      }
+    },
+    {
+      "data" : {
+        "values" : [
+          {
+            "1961" : "Year: 1961",
+            "2013" : "Year: 2013"
+          }
+        ]
+      },
+      "mark" : {
+        "type" : "text",
+        "align" : "right",
+        "baseline" : "bottom",
+        "x" : "width",
+        "y" : 0
+      },
+      "encoding": {"text": {"field": {"repeat": "repeat"}}}
+    }
+  ]
+  },
+ "config": {} 
 }
-  
