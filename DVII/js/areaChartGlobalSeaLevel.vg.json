@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 1700,
-    "height": 200,
+    "height": 300,
     "data": {"url": "https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/data/sea_level/Global_Sea_Level.csv"},
     "mark": {
         "type" : "area",

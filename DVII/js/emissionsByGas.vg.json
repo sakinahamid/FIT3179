@@ -38,7 +38,7 @@
     },
     {"name": "select", "select": "point"}
   ],
-  "mark": {"type": "arc", "innerRadius": 200, "stroke" : "black"},
+  "mark": {"type": "arc", "innerRadius": 200, "stroke" : "black", "cursor": "pointer"},
   "encoding": {
     "tooltip": [
       {"field": "Greenhouse Gas", "type": "nominal"},

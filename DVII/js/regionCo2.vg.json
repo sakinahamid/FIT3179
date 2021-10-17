@@ -4,7 +4,7 @@
   "hconcat": [
     {
       "width": 1000,
-  "height": 400,
+  "height": 500,
   "params": [{
   "name": "region",
   "select": {"type": "point", "fields": ["Country"], "on" : "mouseover"}
@@ -58,8 +58,8 @@
     },
 
     {
-      "width" : 500,
-  "height" : 300,
+      "width" : 600,
+  "height" : 400,
   "encoding": {
     "x": {"field": "Country", "type": "nominal", "title" : "Region"},
     "y": {"aggregate" : "average", "field": "Co2 Emissions per Capita", "type": "quantitative"}
@@ -73,6 +73,7 @@
   ],
   "mark": {
     "type": "bar",
+    "stroke": "black",
     "cursor": "pointer"
   },
   "encoding": {
@@ -109,10 +110,16 @@
       {"field": "Country", "type": "nominal", "title" : "Region"},
       {"aggregate" : "average", "field": "Co2 Emissions per Capita", "type": "quantitative", "format": ".2f"}
     ],
-    "opacity": {
-    "condition": {"param": "region", "value": 1},
-    "value": 0.05
-  }
+    "strokeWidth": {
+      "condition": [
+        {
+          "param": "region",
+          "empty": false,
+          "value": 2
+        }
+      ],
+      "value": 0
+    }
 }
 },
 {

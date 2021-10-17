@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 800,
+  "width": 1600,
   "height": 600,
   "params": [
     {
@@ -81,7 +81,10 @@
                 "type": "threshold",
                 "domain" : [-0.1, 0.3, 0.7, 1.1, 1.5],
                 "range" : ["#fef0d9", "#fdd49e", "#fdbb84", "#fc8d59", "#e34a33", "#b30000"]
-              }
+              },
+              "legend": {
+                "title": "Temperature Change (C)"
+            }
             },
         "tooltip": [
           {"field": "Country", "type": "nominal"},
