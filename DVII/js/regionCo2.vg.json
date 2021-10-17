@@ -100,8 +100,7 @@
           "#cab2d6"
           ]
       
-      },
-      "legend" : null
+      }
     },
       "tooltip": [
         {"field": "Country", "type": "nominal", "title" : "Region"},
