@@ -58,7 +58,7 @@
     },
 
     {
-      "width" : 600,
+      "width" : 500,
   "height" : 400,
   "encoding": {
     "x": {"field": "Country", "type": "nominal", "title" : "Region"},

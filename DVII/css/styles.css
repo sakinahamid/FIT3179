@@ -90,7 +90,8 @@ h4 {
     color: black;
 }
 
-#text_div{
+
+#text_div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,7 +101,9 @@ h4 {
 }
 
 #text_div_co2 {
-    margin-top: 40px;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-right: 170px;
     display: flex;
     align-items: center;
     justify-content: center;
