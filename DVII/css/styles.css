@@ -20,57 +20,25 @@ h3 {
 
 h4 {
     text-align: center;
+    padding-top: 40px;
 }
 
-#banner {
-    background-image: url("https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/pictures/pexels-photo-3147058.jpeg");
-    background-size: cover;
-    background-position: center;
-    height: 210px;
-    width: 100%;
+.pure-u-1 h6 {
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+    color:darkgrey;
 }
 
-.pure-g {
-    display: -flexbox;
-    align-content: flex-start;
-  }
-
-.center {
-    justify-content: center;
-}
-
-#banner .topic h1 {
-    border: 3px solid white;
-    border-radius: 10px;
+.subheading h2{
+    border: 1px solid black;
     position: relative;
-    top: 50px;
+    top: 40px;
     width: 900px;
     margin: 0 auto;
     text-align: center;
-    color: white;
     font-size: 50px;
-    opacity: 100% ;
-}
-
-.pull-quote {
-    padding-top: 10px;
-    text-align: center;
-    font-style: italic;
-    font-weight: lighter;
-    color:rgb(34, 59, 87);
-}
-
-#quotee {
-    font-size: 12px;
-    font-style: normal;
-    color: black;
-}
-
-.caption {
-    text-align: justify;
-    font-weight: lighter;
-    font-size: 15px;
-    padding: 10px;
+    opacity: 100%;
 }
 
 .subtopic {
@@ -82,13 +50,63 @@ h4 {
     margin-top: 20px;
 }
 
-#text_div {
+.pure-g {
+    display: -flexbox;
+    align-content: flex-start;
+  }
+
+.center {
+    justify-content: center;
+}
+
+.pull-quote {
     margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    color:rgb(34, 59, 87);
+    border: 2px dotted rgb(34, 59, 87);
+    border-radius: 20px;
+}
+
+.caption {
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#banner {
+    background-image: url("https://raw.githubusercontent.com/sakinahamid/FIT3179/main/DVII/pictures/pexels-photo-3147058.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+    width: 100%;
+}
+
+#quotee {
+    font-size: 12px;
+    font-style: normal;
+    color: black;
+}
+
+#text_div{
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px; 
-    color:rgb(73, 72, 72)
+    color:rgb(73, 72, 72);
+    text-align: center;
+}
+
+#text_div_co2 {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; 
+    color:rgb(73, 72, 72);
+    text-align: center;
 }
 
 #co2 {
@@ -109,37 +127,56 @@ h4 {
     color: black;
 }
 
+h3 #emphasis{
+    font-size: 38px; 
+    font-weight: bold;
+    color: black;
+}
+
 #donut_chart {
     display: flex;
     align-items: center;
-    justify-content: center }
+    justify-content: center; }
 
 #hconcat_co2 {
     display: flex;
     align-items: center;
-    justify-content: center }
+    justify-content: center; }
 
 #choropleth_map {
     display: flex;
     align-items: center;
-    justify-content: center }
+    justify-content: center; }
 
 #choropleth_multiple {
     display: flex;
     align-items: center;
-    justify-content: center }
+    justify-content: center; }
 
 #heat_map {
     display: flex;
     align-items: center;
-    justify-content: center }
+    justify-content: center; }
 
 #area_chart_temp {
     display: flex;
     align-items: center;
-    justify-content: center }
+    justify-content: center; }
 
 #area_chart_sea {
     display: flex;
     align-items: center;
-    justify-content: center }
+    justify-content: center; }
+
+#banner .topic h1 {
+    border: 3px solid white;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    opacity: 100%;
+}
